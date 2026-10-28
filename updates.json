@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T16:43:00Z"
+    "lastUpdated": "2026-10-28T16:53:00Z"
   },
   "measures": [
     {
@@ -275,16 +275,17 @@
     {
       "id": "warm-homes",
       "category": "Energy",
-      "status": "expected",
-      "headline": "More energy help for lower-income homes",
-      "detail": "An expansion of the Warm Homes scheme is expected, which helps lower-income households with energy costs and insulation. It could be paid for by the bank levy.",
-      "impact": "If you're on a lower income, you could get more help with bills or home upgrades this winter. Not mentioned in the speech. We're checking the full Budget documents.",
+      "status": "dropped",
+      "headline": "No Warm Homes expansion announced",
+      "detail": "An expanded Warm Homes scheme funded by the bank levy had been tipped, but none was announced. The bank surcharge money goes to the £100 Household Energy Payment instead. The existing £15bn Warm Homes Plan (from January 2026) continues.",
+      "impact": "No extra insulation or heating-upgrade money this time. Lower-income households get the £100 payment instead.",
       "who": [
         "renter",
         "homeowner",
         "pensioner"
       ],
-      "source": "Pre-Budget reporting, via LBC"
+      "source": "Budget speech and post-Budget coverage",
+      "new": true
     },
     {
       "id": "hydrogen-levy",
@@ -409,8 +410,7 @@
       "who": [
         "business"
       ],
-      "source": "Budget, via trade press",
-      "new": true
+      "source": "Budget, via trade press"
     },
     {
       "id": "small-brewers",
@@ -434,8 +434,7 @@
       "who": [
         "everyone"
       ],
-      "source": "Budget, via trade press",
-      "new": true
+      "source": "Budget, via trade press"
     },
     {
       "id": "rental-profits",
@@ -453,12 +452,19 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T16:50:00Z",
+      "title": "Every rumour now resolved",
+      "body": "The tipped Warm Homes expansion didn't happen, because the bank levy pays for the £100 energy payment instead. That means every pre-Budget rumour on this page is now marked Confirmed or Dropped.",
+      "tag": "Analysis",
+      "measure": "warm-homes",
+      "new": true
+    },
+    {
       "time": "2026-10-28T16:40:00Z",
       "title": "Alcohol duty confirmed up 3.9%, but pubs get a rates cut",
       "body": "Duty rises with inflation from 1 February 2027, about 2p a pint. Pubs, clubs and music venues get 20% off business rates, and tied tenants get a 'Guest Beer' right. The pub trade wanted a freeze and called the rise 'the wrong thing to do'.",
       "tag": "Confirmed",
-      "measure": "beer-duty",
-      "new": true
+      "measure": "beer-duty"
     },
     {
       "time": "2026-10-28T16:30:00Z",

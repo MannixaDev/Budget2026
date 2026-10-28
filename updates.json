@@ -5,7 +5,7 @@
     "speechStart": "2026-10-28T12:30:00Z",
     "status": "pre",
     "statusNote": "Healey speaks at 12:30 after PMQs, Badenoch replies at around 13:30, and the OBR's forecast press conference is at 14:30. Some measures were briefed out this morning.",
-    "lastUpdated": "2026-10-28T09:30:00Z"
+    "lastUpdated": "2026-10-28T09:42:00Z"
   },
 
   "measures": [
@@ -122,6 +122,18 @@
   ],
 
   "updates": [
+    {
+      "time": "2026-10-28T09:40:00Z",
+      "title": "Who is John Healey?",
+      "body": "Healey, Labour MP for Rawmarsh and Conisbrough, became Chancellor on 20 July 2026, taking over from Rachel Reeves. Today is his first Budget in the job.",
+      "tag": "Explainer"
+    },
+    {
+      "time": "2026-10-28T09:31:00Z",
+      "title": "The debt backdrop",
+      "body": "With national debt around £3 trillion, the UK now spends more on debt interest than on defence, schools and prisons combined. Commentators want to see how Healey funds NATO targets of 3% of GDP on defence by 2030.",
+      "tag": "Analysis"
+    },
     {
       "time": "2026-10-28T09:30:00Z",
       "title": "Today's timetable, and more expected measures",

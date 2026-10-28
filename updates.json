@@ -5,7 +5,7 @@
     "speechStart": "2026-10-28T12:30:00Z",
     "status": "pre",
     "statusNote": "The Chancellor is expected to stand up in the Commons at around 12:30. Some measures have already been briefed out this morning.",
-    "lastUpdated": "2026-10-28T08:40:00Z"
+    "lastUpdated": "2026-10-28T08:55:00Z"
   },
 
   "measures": [
@@ -24,8 +24,8 @@
       "category": "Savings",
       "status": "confirmed",
       "headline": "Cash ISA limit stays at £20,000",
-      "detail": "The previous plan to cut the cash ISA allowance for under-65s has been dropped.",
-      "impact": "You can keep putting up to £20,000 a year into a cash ISA, tax-free.",
+      "detail": "The previous plan to cut the cash ISA allowance from £20,000 to £12,000 for under-65s, due from April 2027, has been dropped. So has a plan to tax cash held inside Stocks and Shares ISAs.",
+      "impact": "Nothing changes. You can still put up to £20,000 a year into ISAs tax-free, all in cash if you like.",
       "who": ["saver"],
       "source": "Treasury, via LBC"
     },
@@ -38,6 +38,16 @@
       "impact": "More small shops and premises could pay less or no business rates. Not confirmed yet.",
       "who": ["business"],
       "source": "Pre-Budget reporting"
+    },
+    {
+      "id": "beer-duty",
+      "category": "Tax",
+      "status": "expected",
+      "headline": "Beer could go up by 2p a pint",
+      "detail": "Reports suggest the Chancellor will raise duty so that a pint of beer goes up by around 2p.",
+      "impact": "A small rise at the bar. Not confirmed yet.",
+      "who": ["everyone"],
+      "source": "Pre-Budget reporting, via LBC"
     },
     {
       "id": "rental-profits",
@@ -80,7 +90,7 @@
     {
       "time": "2026-10-28T06:34:00Z",
       "title": "Cash ISA cut dropped",
-      "body": "John Healey has scrapped his predecessor's plan to cut the cash ISA limit. It stays at £20,000.",
+      "body": "John Healey has scrapped Rachel Reeves's plan to cut the cash ISA limit to £12,000 for under-65s. The limit stays at £20,000.",
       "tag": "Confirmed",
       "measure": "cash-isa"
     },

@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T12:48:00Z"
+    "lastUpdated": "2026-10-28T12:51:00Z"
   },
   "measures": [
     {
@@ -17,7 +17,7 @@
       "category": "Energy",
       "status": "confirmed",
       "headline": "Standing charges on gas bills scrapped",
-      "detail": "The Treasury says the fixed daily standing charge on household gas bills will go from 2027, or as soon as possible after that.",
+      "detail": "Confirmed in the speech: Ofgem will remove the fixed daily standing charge from household gas bills from next year. Similar reforms are planned for electricity.",
       "impact": "The charge is about £108 a year now, but the cost is expected to move into the price per unit of gas. Martin Lewis estimates around 60% of households will pay less, mostly low users, and 40% will pay more. Reports put typical savings at roughly £22 to £50 a year.",
       "who": [
         "everyone",
@@ -25,7 +25,8 @@
         "homeowner",
         "pensioner"
       ],
-      "source": "HM Treasury briefing, via LBC"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "cash-isa",
@@ -68,17 +69,18 @@
     {
       "id": "electricity-vat",
       "category": "Energy",
-      "status": "expected",
-      "headline": "Possible VAT cut on electricity bills",
-      "detail": "Pre-Budget reporting suggests a cut to VAT on household electricity, possibly temporary. The rate, timing and cost haven't been confirmed.",
-      "impact": "VAT on home energy is currently 5%, so removing it would knock about £5 off every £100 of electricity. Not confirmed yet.",
+      "status": "confirmed",
+      "headline": "VAT cut on electricity extended to July",
+      "detail": "The existing VAT cut on household electricity, covering 29 million households, is extended through winter and spring until July.",
+      "impact": "Worth about £50 off the annual energy price cap for a typical household.",
       "who": [
         "everyone",
         "renter",
         "homeowner",
         "pensioner"
       ],
-      "source": "Pre-Budget reporting"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "mileage",
@@ -185,6 +187,19 @@
       "source": "Pre-Budget reporting, via LBC"
     },
     {
+      "id": "industry-energy",
+      "category": "Business",
+      "status": "confirmed",
+      "headline": "25% off electricity bills for 10,000 firms",
+      "detail": "The British Industrial Competitiveness Scheme will cut electricity bills by 25% for around 10,000 businesses from April, with backdated payments for this year's energy costs.",
+      "impact": "Big help for energy-heavy manufacturers. Most small businesses won't qualify.",
+      "who": [
+        "business"
+      ],
+      "source": "Budget speech",
+      "new": true
+    },
+    {
       "id": "bank-surcharge",
       "category": "Business",
       "status": "expected",
@@ -236,25 +251,45 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:49:00Z",
+      "title": "Confirmed: gas standing charges scrapped",
+      "body": "Healey confirmed Ofgem will remove gas standing charges, which cost over £100 a year whatever you use, from next year. Electricity is to follow.",
+      "tag": "Confirmed",
+      "measure": "gas-standing-charge",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:48:00Z",
+      "title": "Electricity VAT cut extended, worth £50",
+      "body": "The VAT cut on electricity is extended through winter and spring to July, taking about £50 off the annual price cap. Around 10,000 businesses get 25% off electricity from April.",
+      "tag": "Confirmed",
+      "measure": "electricity-vat",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:47:00Z",
+      "title": "Energy shake-up to cut bills",
+      "body": "New clean power projects will only go ahead if they lower bills. More existing renewables move onto fixed-price contracts to shield bills from gas prices, and grid connections get faster through GB Grid.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:46:00Z",
       "title": "Cheaper energy is 'top priority'",
       "body": "Healey says cheaper energy is the government's top priority, with clean power central to it. Net Zero by 2050 stays.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T12:45:00Z",
       "title": "'Radical reform' of energy promised",
       "body": "Healey points to approval of the Jackdaw gas field, which protects hundreds of jobs and is worth an estimated £2.9bn, and a new Energy Wealth Fund for the UK.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T12:44:00Z",
       "title": "Growth forecast upgraded",
       "body": "The OBR now expects growth of 1.2% this year and 1% next year, then 1.6% in 2028, 1.8% in 2029, 1.7% in 2030 and 1.6% in 2031.",
-      "tag": "Forecast",
-      "new": true
+      "tag": "Forecast"
     },
     {
       "time": "2026-10-28T12:42:00Z",

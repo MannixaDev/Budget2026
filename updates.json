@@ -5,7 +5,7 @@
     "speechStart": "2026-10-28T12:30:00Z",
     "status": "pre",
     "statusNote": "The Chancellor is expected to stand up in the Commons at around 12:30. Some measures have already been briefed out this morning.",
-    "lastUpdated": "2026-10-28T09:00:00Z"
+    "lastUpdated": "2026-10-28T09:20:00Z"
   },
 
   "measures": [
@@ -28,6 +28,36 @@
       "impact": "Nothing changes. You can still put up to £20,000 a year into ISAs tax-free, all in cash if you like.",
       "who": ["saver"],
       "source": "Treasury, via LBC"
+    },
+    {
+      "id": "no-rate-rises",
+      "category": "Tax",
+      "status": "confirmed",
+      "headline": "No rise in income tax, employee NI or VAT rates",
+      "detail": "The Chancellor has ruled out raising the rates of income tax, employee National Insurance and VAT, sticking to Labour's 2024 manifesto promise.",
+      "impact": "The rates on your payslip and on most shopping won't go up. Taxes can still rise in other ways, though, for example by keeping thresholds frozen.",
+      "who": ["everyone", "worker"],
+      "source": "Chancellor's pre-Budget commitment"
+    },
+    {
+      "id": "personal-allowance",
+      "category": "Tax",
+      "status": "expected",
+      "headline": "Will the tax-free allowance finally rise?",
+      "detail": "The £12,570 personal allowance has been frozen since April 2021. A higher allowance has been floated as a key promise, but no figure or funding has been confirmed.",
+      "impact": "If it rises, everyone earning over £12,570 would take home a little more. If it stays frozen, more of your pay rise gets taxed (this is called fiscal drag).",
+      "who": ["worker", "pensioner"],
+      "source": "Pre-Budget reporting"
+    },
+    {
+      "id": "electricity-vat",
+      "category": "Energy",
+      "status": "expected",
+      "headline": "Possible VAT cut on electricity bills",
+      "detail": "Pre-Budget reporting suggests a cut to VAT on household electricity, possibly temporary. The rate, timing and cost haven't been confirmed.",
+      "impact": "VAT on home energy is currently 5%, so removing it would knock about £5 off every £100 of electricity. Not confirmed yet.",
+      "who": ["everyone", "renter", "homeowner", "pensioner"],
+      "source": "Pre-Budget reporting"
     },
     {
       "id": "small-business-rates",
@@ -62,6 +92,13 @@
   ],
 
   "updates": [
+    {
+      "time": "2026-10-28T09:20:00Z",
+      "title": "What's already ruled out, and what to watch for",
+      "body": "Healey has ruled out higher rates of income tax, employee National Insurance and VAT. The big questions for 12:30 are whether the £12,570 tax-free allowance, frozen since 2021, finally goes up, and whether VAT comes off electricity bills.",
+      "tag": "Explainer",
+      "measure": "no-rate-rises"
+    },
     {
       "time": "2026-10-28T08:45:00Z",
       "title": "Martin Lewis: most will pay less, but not everyone",

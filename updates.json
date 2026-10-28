@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T15:53:00Z"
+    "lastUpdated": "2026-10-28T16:24:00Z"
   },
   "measures": [
     {
@@ -33,14 +33,15 @@
       "status": "confirmed",
       "headline": "Standing charges on gas bills scrapped",
       "detail": "Confirmed in the speech: Ofgem will remove the fixed daily standing charge from household gas bills from next year. Similar reforms are planned for electricity.",
-      "impact": "The charge is about £108 a year now, but the cost is expected to move into the price per unit of gas. Martin Lewis estimates around 60% of households will pay less, mostly low users, and 40% will pay more. Reports put typical savings at roughly £22 to £50 a year.",
+      "impact": "The Treasury says about 60% of households will save, an average of £45 a year, as the fixed charge moves into the price per unit. Low users gain most, and high users may pay a bit more.",
       "who": [
         "everyone",
         "renter",
         "homeowner",
         "pensioner"
       ],
-      "source": "Budget speech"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "cash-isa",
@@ -71,14 +72,15 @@
       "id": "personal-allowance",
       "category": "Tax",
       "status": "dropped",
-      "headline": "No rise in the £12,570 tax-free allowance announced",
+      "headline": "Tax-free allowance stays frozen at £12,570",
       "detail": "Despite calls to end the freeze, the speech made no change to the personal allowance. It stays at £12,570, frozen since 2021 and currently set to stay there until 2031. The IFS estimated unfreezing it would cost around £6.7bn to £8.4bn a year. The only change is for pensioners living on the State Pension alone, who won't pay income tax.",
-      "impact": "As wages rise, more of your pay keeps getting taxed (fiscal drag). We'll confirm against the full Budget documents when they're published.",
+      "impact": "As wages rise, more of your pay keeps getting taxed (fiscal drag). Post-Budget coverage confirms the freeze stays.",
       "who": [
         "worker",
         "pensioner"
       ],
-      "source": "Budget speech and LBC round-up"
+      "source": "Budget speech and post-Budget coverage",
+      "new": true
     },
     {
       "id": "electricity-vat",
@@ -151,13 +153,14 @@
       "category": "Work",
       "status": "confirmed",
       "headline": "Minimum wage up 3.9%",
-      "detail": "Both the National Minimum Wage and the National Living Wage rise by 3.9%, covering 2.3 million of the lowest-paid workers.",
+      "detail": "Both the National Minimum Wage and the National Living Wage rise by 3.9%, covering 2.3 million of the lowest-paid workers. Under-21s get the same 3.9%, ending the recent pattern of the youth rate rising faster.",
       "impact": "A pay rise for the lowest-paid, normally from April. For a full-time worker it's roughly in line with inflation.",
       "who": [
         "worker",
         "business"
       ],
-      "source": "Budget speech"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "carers",
@@ -191,11 +194,12 @@
       "status": "confirmed",
       "headline": "Defence spending to hit 3% of GDP by 2030",
       "detail": "The Defence Investment Plan is fully funded, taking defence spending to 3% of national income by 2030. The OBR estimates that needs an extra £17.3bn in 2029/30. Next year's Spending Review will set out how to reach NATO's 3.5% by 2035. Up to £5bn of investment and lending from the National Wealth Fund and British Business Bank will go to defence firms over four years.",
-      "impact": "A big long-term spending commitment. It's part of why there's little room for tax cuts elsewhere.",
+      "impact": "A big long-term commitment, and part of why there's little room for tax cuts. ITV notes the plan promised £15bn but only £10.3bn is committed so far.",
       "who": [
         "everyone"
       ],
-      "source": "Budget speech"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "welfare-reform",
@@ -323,8 +327,7 @@
       "who": [
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "capital-allowances",
@@ -342,13 +345,14 @@
       "id": "gambling-online",
       "category": "Tax",
       "status": "confirmed",
-      "headline": "Gambling duties up, new tax rules for online sellers",
-      "detail": "Gambling duties rise to help pay for the Budget. Online sellers and large taxi firms face new sales tax rules. Full details are in the Budget documents.",
+      "headline": "Gaming duty up from 20% to 25%; new rules for online sellers",
+      "detail": "Gaming duty on bookmakers rises from 20% to 25%, a smaller rise than the industry feared. Online sellers and large taxi firms face new sales tax rules.",
       "impact": "Betting firms pay more. If you sell online at scale, check how the new rules affect you.",
       "who": [
         "business"
       ],
-      "source": "Budget round-up, via LBC"
+      "source": "Budget round-up, via LBC",
+      "new": true
     },
     {
       "id": "hmrc-crackdown",
@@ -428,20 +432,25 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T16:20:00Z",
+      "title": "Winners and losers: the verdict so far",
+      "body": "The winners are energy bill payers (about 60% save around £45 a year on gas), low-paid workers (+3.9%), and banks and bookmakers, whose rises (bank surcharge to 6%, gaming duty to 25%) were smaller than feared. Losers are earners caught by the frozen £12,570 allowance, plus a growth outlook cut to 1% for 2027. Commentators call it a Budget that 'didn't frighten the horses'.",
+      "tag": "Analysis",
+      "new": true
+    },
+    {
       "time": "2026-10-28T15:52:00Z",
       "title": "IFS sceptical about Founders' Relief",
       "body": "IFS director Helen Miller said the new 10% Founders' Relief 'might be bonkers' and that she was struggling to see an economic rationale for it.",
       "tag": "Reaction",
-      "measure": "founders-relief",
-      "new": true
+      "measure": "founders-relief"
     },
     {
       "time": "2026-10-28T15:50:00Z",
       "title": "Will the £100 actually go on heating?",
       "body": "Critics point out that because the energy payment goes straight into bank accounts rather than onto bills, there's no guarantee it'll be spent on keeping warm.",
       "tag": "Reaction",
-      "measure": "energy-payment",
-      "new": true
+      "measure": "energy-payment"
     },
     {
       "time": "2026-10-28T15:42:00Z",

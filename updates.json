@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T14:15:00Z"
+    "lastUpdated": "2026-10-28T14:25:00Z"
   },
   "measures": [
     {
@@ -18,14 +18,15 @@
       "status": "confirmed",
       "headline": "£100 Household Energy Payment this winter",
       "detail": "About 20 million households in council tax bands A to D will get £100 paid straight into their bank accounts this winter. It costs £2.6bn. Scotland, Wales and Northern Ireland get funding and are being urged to pass it on.",
-      "impact": "If your home is in council tax band A, B, C or D in England, expect £100 towards energy bills over winter. Elsewhere in the UK, it depends on your devolved government.",
+      "impact": "If your home is in council tax band A, B, C or D in England, expect £100 towards energy bills over winter. Elsewhere in the UK, it depends on your devolved government. Campaigners say it will 'barely dent' bills: the price cap is now £1,723, and a rise of around 22% is forecast for January.",
       "who": [
         "everyone",
         "renter",
         "homeowner",
         "pensioner"
       ],
-      "source": "Budget speech"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "gas-standing-charge",
@@ -427,11 +428,25 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T14:22:00Z",
+      "title": "£100 payment will 'barely dent' January's rise, say campaigners",
+      "body": "The typical bill under the price cap is £1,723 after October's 3.6% rise, and another rise of around 22% is forecast for January. The End Fuel Poverty Coalition says Healey 'talked the talk' but didn't deliver. Citizens Advice warns of another difficult winter.",
+      "tag": "Reaction",
+      "measure": "energy-payment",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T14:17:00Z",
+      "title": "Markets eye a tougher 2027",
+      "body": "With growth forecast at just 1% next year and inflation still high, CMC Markets says the smaller £15bn buffer matters more, and investors fear a difficult year ahead.",
+      "tag": "Reaction",
+      "new": true
+    },
+    {
       "time": "2026-10-28T14:04:00Z",
       "title": "OBR: borrowing revised up by nearly £18bn",
       "body": "The OBR now expects borrowing of £133.2bn this year (2026/27), up from £115.5bn in March, and higher in every year to 2030/31. It blames higher debt interest, the Budget's own policies, and more spending on welfare and public sector pensions.",
-      "tag": "Forecast",
-      "new": true
+      "tag": "Forecast"
     },
     {
       "time": "2026-10-28T14:01:00Z",

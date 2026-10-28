@@ -450,6 +450,10 @@ footer { margin: 56px 0 32px; padding-top: 20px; border-top: 1px solid var(--bor
     if (!s) return;
     if (s.page) $('watchPage').href = s.page;
     // No embeddable player: show a big link to the stream instead.
+    if (s.embed && $('player').querySelector('.watchlink')) {
+      $('player').replaceChildren();
+      if ($('watch').open) $('watch').dispatchEvent(new Event('toggle'));
+    }
     if (!s.embed && !$('player').firstChild) {
       $('player').innerHTML = `<a class="watchlink" href="${esc(s.page || 'https://parliamentlive.tv/Commons')}" target="_blank" rel="noopener">▶&nbsp; Watch on Parliament Live TV ↗</a>`;
     }

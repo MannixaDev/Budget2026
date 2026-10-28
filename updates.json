@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:36:00Z"
+    "lastUpdated": "2026-10-28T13:42:00Z"
   },
   "measures": [
     {
@@ -65,8 +65,7 @@
         "everyone",
         "worker"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "personal-allowance",
@@ -416,12 +415,18 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:35:00Z",
+      "title": "Greens question the fiscal rules",
+      "body": "Green leader Zack Polanski asked whether the fiscal rules Healey praised are the same ever-changing rules that have held back the investment the country needs.",
+      "tag": "Reaction",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:29:00Z",
       "title": "Speech over: 'banks will give families breathing space'",
       "body": "Healey wrapped up by calling it a Budget for workers, sole traders and parents: revenue raised from those who can afford it, no tax rises on wages or dividends, and tax cuts for millions of families and businesses. Next: Kemi Badenoch's reply, then the OBR at 14:30.",
       "tag": "Breaking",
-      "measure": "no-rate-rises",
-      "new": true
+      "measure": "no-rate-rises"
     },
     {
       "time": "2026-10-28T13:27:00Z",

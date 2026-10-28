@@ -4,8 +4,8 @@
     "chancellor": "John Healey",
     "speechStart": "2026-10-28T12:30:00Z",
     "status": "pre",
-    "statusNote": "The Chancellor is expected to stand up in the Commons at around 12:30. Some measures have already been briefed out this morning.",
-    "lastUpdated": "2026-10-28T09:20:00Z"
+    "statusNote": "Healey speaks at 12:30 after PMQs, Badenoch replies at around 13:30, and the OBR's forecast press conference is at 14:30. Some measures were briefed out this morning.",
+    "lastUpdated": "2026-10-28T09:30:00Z"
   },
 
   "measures": [
@@ -60,6 +60,36 @@
       "source": "Pre-Budget reporting"
     },
     {
+      "id": "minimum-wage",
+      "category": "Work",
+      "status": "expected",
+      "headline": "Minimum wage rise for over-21s",
+      "detail": "A rise in the National Living Wage for workers aged 21 and over is expected. No figure has been confirmed yet.",
+      "impact": "A pay rise for the lowest-paid workers, usually from April. Some employers warn it makes taking on trainees harder.",
+      "who": ["worker", "business"],
+      "source": "Pre-Budget reporting"
+    },
+    {
+      "id": "carers",
+      "category": "Benefits",
+      "status": "expected",
+      "headline": "End to the Carer's Allowance 'cliff edge'",
+      "detail": "Unpaid carers currently lose all of their Carer's Allowance if they earn even £1 over the weekly earnings limit. The Budget is expected to end this.",
+      "impact": "Carers could take on more paid work without suddenly losing their whole allowance. Details are still to come.",
+      "who": ["worker", "parent"],
+      "source": "Pre-Budget reporting"
+    },
+    {
+      "id": "rough-sleeping",
+      "category": "Housing",
+      "status": "expected",
+      "headline": "Extra £432m to tackle rough sleeping",
+      "detail": "Funding for rough sleeping support is expected to double, including £432m aimed at getting people off the streets before Christmas.",
+      "impact": "More emergency accommodation and support services this winter.",
+      "who": ["everyone"],
+      "source": "Pre-Budget reporting"
+    },
+    {
       "id": "small-business-rates",
       "category": "Business",
       "status": "expected",
@@ -92,6 +122,12 @@
   ],
 
   "updates": [
+    {
+      "time": "2026-10-28T09:30:00Z",
+      "title": "Today's timetable, and more expected measures",
+      "body": "After PMQs, Healey speaks at 12:30. Kemi Badenoch replies for the Conservatives at around 13:30, and the OBR gives its press conference on the forecasts at 14:30. Also tipped: a minimum wage rise, an end to the carers' earnings 'cliff edge', and £432m for rough sleeping.",
+      "tag": "Preview"
+    },
     {
       "time": "2026-10-28T09:20:00Z",
       "title": "What's already ruled out, and what to watch for",

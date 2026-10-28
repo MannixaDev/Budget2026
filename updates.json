@@ -4,12 +4,12 @@
     "chancellor": "John Healey",
     "speechStart": "2026-10-28T12:30:00Z",
     "status": "post",
-    "statusNote": "The speech is over. The OBR has published its forecasts, and its press conference is at 14:30. We're working through the full Budget documents.",
+    "statusNote": "The speech and the OBR forecasts are out. We're still adding reaction and analysis, and checking the official Budget documents as they're published.",
     "stream": {
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T15:22:00Z"
+    "lastUpdated": "2026-10-28T15:45:00Z"
   },
   "measures": [
     {
@@ -422,18 +422,23 @@
         "landlord",
         "renter"
       ],
-      "source": "November 2025 Budget, via landlord and tax guides",
-      "new": true
+      "source": "November 2025 Budget, via landlord and tax guides"
     }
   ],
   "updates": [
+    {
+      "time": "2026-10-28T15:42:00Z",
+      "title": "How it measures up to what experts asked for",
+      "body": "Before the Budget, the Resolution Foundation wanted the buffer rebuilt to at least £20bn and no further fuel duty freeze. Healey went with £15bn and extended the 5p cut. The IFS had warned of a £35bn gap in spending ambitions, and Healey has pushed the big defence spending decision to next year's Spending Review.",
+      "tag": "Analysis",
+      "new": true
+    },
     {
       "time": "2026-10-28T15:20:00Z",
       "title": "Landlords: the 2p rise is still coming",
       "body": "The higher tax on rental profits (22%, 42% and 47% from April 2027) was set last year, and Healey left it unchanged. We've updated the card to make clear it's already-planned, not new.",
       "tag": "Explainer",
-      "measure": "rental-profits",
-      "new": true
+      "measure": "rental-profits"
     },
     {
       "time": "2026-10-28T15:05:00Z",

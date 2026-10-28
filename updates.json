@@ -9,7 +9,7 @@
       "embed": "",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T10:42:00Z"
+    "lastUpdated": "2026-10-28T11:12:00Z"
   },
   "measures": [
     {
@@ -129,7 +129,19 @@
         "driver",
         "business"
       ],
-      "source": "Pre-Budget reporting",
+      "source": "Pre-Budget reporting"
+    },
+    {
+      "id": "bank-surcharge",
+      "category": "Business",
+      "status": "expected",
+      "headline": "Temporary rise in the bank tax surcharge",
+      "detail": "Banks pay a 3% surcharge on profits on top of 25% corporation tax. Healey is reported to be raising it temporarily, but to below the 8% it stood at until 2023.",
+      "impact": "Raises money from big banks' profits rather than households directly. Banks could pass some of the cost on through savings and loan rates. Bank shares rose on the news because the rise is smaller than feared.",
+      "who": [
+        "business"
+      ],
+      "source": "Bloomberg, via LBC",
       "new": true
     },
     {
@@ -172,19 +184,25 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T11:07:00Z",
+      "title": "Bank tax to rise, but temporarily",
+      "body": "Bloomberg reports Healey will temporarily raise the bank surcharge from its current 3%, but keep it below 8%. Lloyds, Barclays and NatWest shares rose at least 2% on relief that it isn't higher.",
+      "tag": "Breaking",
+      "measure": "bank-surcharge",
+      "new": true
+    },
+    {
       "time": "2026-10-28T10:40:00Z",
       "title": "Drivers watch fuel duty",
       "body": "The 5p fuel duty cut is due to start ending in January. Healey wouldn't say beforehand whether he'll delay the rise, and motoring groups are pushing for a further cut.",
       "tag": "Preview",
-      "measure": "fuel-duty",
-      "new": true
+      "measure": "fuel-duty"
     },
     {
       "time": "2026-10-28T10:30:00Z",
       "title": "Fewer firms are exporting",
       "body": "Among businesses turning over at least £500,000, the share that have ever exported fell from 45% in 2021 to 35% in 2025, according to a government survey. Expect growth and trade to feature in the speech.",
-      "tag": "Analysis",
-      "new": true
+      "tag": "Analysis"
     },
     {
       "time": "2026-10-28T09:40:00Z",

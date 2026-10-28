@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:48:00Z"
+    "lastUpdated": "2026-10-28T14:05:00Z"
   },
   "measures": [
     {
@@ -73,12 +73,13 @@
       "status": "expected",
       "headline": "Will the tax-free allowance finally rise?",
       "detail": "The £12,570 personal allowance has been frozen since April 2021. A higher allowance has been floated as a key promise, but no figure or funding has been confirmed.",
-      "impact": "If it rises, everyone earning over £12,570 would take home a little more. If it stays frozen, more of your pay rise gets taxed (this is called fiscal drag).",
+      "impact": "If it rises, everyone earning over £12,570 would take home a little more. If it stays frozen, more of your pay rise gets taxed (this is called fiscal drag). Not mentioned in the speech. We're checking the full Budget documents.",
       "who": [
         "worker",
         "pensioner"
       ],
-      "source": "Pre-Budget reporting"
+      "source": "Pre-Budget reporting",
+      "new": true
     },
     {
       "id": "electricity-vat",
@@ -266,13 +267,14 @@
       "status": "expected",
       "headline": "More energy help for lower-income homes",
       "detail": "An expansion of the Warm Homes scheme is expected, which helps lower-income households with energy costs and insulation. It could be paid for by the bank levy.",
-      "impact": "If you're on a lower income, you could get more help with bills or home upgrades this winter. Details to come.",
+      "impact": "If you're on a lower income, you could get more help with bills or home upgrades this winter. Not mentioned in the speech. We're checking the full Budget documents.",
       "who": [
         "renter",
         "homeowner",
         "pensioner"
       ],
-      "source": "Pre-Budget reporting, via LBC"
+      "source": "Pre-Budget reporting, via LBC",
+      "new": true
     },
     {
       "id": "hydrogen-levy",
@@ -338,6 +340,19 @@
       "source": "Budget speech"
     },
     {
+      "id": "gambling-online",
+      "category": "Tax",
+      "status": "confirmed",
+      "headline": "Gambling duties up, new tax rules for online sellers",
+      "detail": "Gambling duties rise to help pay for the Budget. Online sellers and large taxi firms face new sales tax rules. Full details are in the Budget documents.",
+      "impact": "Betting firms pay more. If you sell online at scale, check how the new rules affect you.",
+      "who": [
+        "business"
+      ],
+      "source": "Budget round-up, via LBC",
+      "new": true
+    },
+    {
       "id": "hmrc-crackdown",
       "category": "Tax",
       "status": "confirmed",
@@ -393,11 +408,12 @@
       "status": "expected",
       "headline": "Alcohol duty to rise with inflation (about 2p a pint)",
       "detail": "Reports suggest alcohol duty will go up in line with RPI inflation (3.9%), which works out at about 2p on a pint of beer.",
-      "impact": "A small rise at the bar and in shops. Pubs say it adds to their costs. Not confirmed yet.",
+      "impact": "A small rise at the bar and in shops. Pubs say it adds to their costs. Not mentioned in the speech. We're checking the full Budget documents.",
       "who": [
         "everyone"
       ],
-      "source": "Pre-Budget reporting, via LBC"
+      "source": "Pre-Budget reporting, via LBC",
+      "new": true
     },
     {
       "id": "rental-profits",
@@ -405,28 +421,57 @@
       "status": "expected",
       "headline": "Tax on rental profits could rise by 2 points",
       "detail": "Pre-Budget reporting suggests a 2 percentage point rise in the tax on rental income from 2027/28.",
-      "impact": "Landlords would pay more tax on rental profits. Some of the cost could be passed on to tenants. Not confirmed yet.",
+      "impact": "Landlords would pay more tax on rental profits. Some of the cost could be passed on to tenants. Not mentioned in the speech. We're checking the full Budget documents.",
       "who": [
         "landlord",
         "renter"
       ],
-      "source": "Pre-Budget reporting"
+      "source": "Pre-Budget reporting",
+      "new": true
     }
   ],
   "updates": [
     {
+      "time": "2026-10-28T14:01:00Z",
+      "title": "Experts split on the bank tax",
+      "body": "Wealth Club's Susannah Streeter says doubling the bank surcharge from 3% to 6% for 15 months 'sends precisely the wrong message' and adds uncertainty.",
+      "tag": "Reaction",
+      "measure": "bank-surcharge",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:50:00Z",
+      "title": "Badenoch: inflation 'eating away' at living standards",
+      "body": "The Tory leader says it's still easier to live on benefits than to work, and that the Budget does nothing on youth unemployment.",
+      "tag": "Reaction",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:44:00Z",
+      "title": "Gambling duties and online sellers",
+      "body": "The round-up confirms higher gambling duties and new sales tax rules for online sellers and large taxi firms, alongside the bank surcharge.",
+      "tag": "Confirmed",
+      "measure": "gambling-online",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:42:00Z",
+      "title": "A 56-minute speech",
+      "body": "Shorter than Rachel Reeves' last two Budgets, which ran 77 and 64 minutes.",
+      "tag": "Analysis",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:41:00Z",
       "title": "Badenoch: 'a hospital pass'",
       "body": "The Conservative leader compares Healey's inheritance to a rugby 'hospital pass' and says you can't have social security without national security.",
-      "tag": "Reaction",
-      "new": true
+      "tag": "Reaction"
     },
     {
       "time": "2026-10-28T13:40:00Z",
       "title": "Badenoch: 'Is that it?'",
       "body": "Kemi Badenoch says most people will ask 'is that it?', calling it the same story of more borrowing, more taxes and more benefit spending.",
-      "tag": "Reaction",
-      "new": true
+      "tag": "Reaction"
     },
     {
       "time": "2026-10-28T13:38:00Z",

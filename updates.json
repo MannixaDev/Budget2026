@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T12:42:00Z"
+    "lastUpdated": "2026-10-28T12:45:00Z"
   },
   "measures": [
     {
@@ -236,25 +236,43 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:42:00Z",
+      "title": "Swipe at Liz Truss",
+      "body": "Healey said the last time the IMF singled out the UK was when Truss 'crashed the economy'. This time, he said, the IMF projects the UK's deficit will be the lowest in the G7 by 2029.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:41:30Z",
+      "title": "OBR forecasts: borrowing falling, debt flat",
+      "body": "Borrowing is forecast at 4.2% of GDP this year, falling to 3.4% next year, 2.1% in 2029/30 and 1.8% by 2031/32. Debt hovers around 83–84% of GDP before easing to 81.7% by 2031/32.",
+      "tag": "Forecast",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:41:00Z",
+      "title": "Headroom of £15bn, and no 'broad-based' tax rises",
+      "body": "Healey ruled out broad tax rises and deep cuts to public services. The OBR puts his buffer against the fiscal rules at £15bn in 2029/30, rising to £22bn in 2030/31. He says the day-to-day deficit will be gone within three years.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:39:00Z",
       "title": "Rowdy Commons",
       "body": "Deputy Speaker Nusrat Ghani called for order twice in seven minutes as opposition MPs jeered.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T12:38:30Z",
       "title": "Middle East war has pushed inflation back up",
       "body": "The OBR says the Middle East conflict is a key driver of its forecasts. Oil has gone from about $70 to well over $100 a barrel, and gas prices have nearly tripled since February. Inflation, which was due to fall to 2% this year, has risen again as a result.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T12:38:00Z",
       "title": "'Fiscal discipline is my first commitment'",
       "body": "Healey says the Budget meets both fiscal rules: day-to-day spending is covered by taxes, and debt falls as a share of the economy. He wants to keep cutting borrowing so less goes on debt interest.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T12:35:00Z",

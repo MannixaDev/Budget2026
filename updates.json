@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:15:00Z"
+    "lastUpdated": "2026-10-28T13:18:00Z"
   },
   "measures": [
     {
@@ -171,6 +171,20 @@
         "parent"
       ],
       "source": "Government announcement"
+    },
+    {
+      "id": "tourist-tax",
+      "category": "Local",
+      "status": "confirmed",
+      "headline": "Mayors can charge an overnight 'tourist tax'",
+      "detail": "Mayors and Strategic Authorities get the power to bring in an Overnight Visitor Levy. Separately, mayors will get 20% of business rates from next year and a share of income tax from 2028, and 100% of business rates will be kept locally by 2030.",
+      "impact": "Hotel stays in some areas could cost a little more if the local mayor brings in a levy. The money is spent locally.",
+      "who": [
+        "everyone",
+        "business"
+      ],
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "rough-sleeping",
@@ -352,25 +366,44 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:15:00Z",
+      "title": "New Misogyny Prevention Fund",
+      "body": "Healey says work to halve violence against women and girls will speed up, with a new fund run in partnership with the private sector.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:14:00Z",
+      "title": "'Labour is the party of public services'",
+      "body": "Healey says day-to-day spending is up more than £40bn a year since 2024, with £37bn more for health next year than in the Conservatives' last year.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:13:00Z",
+      "title": "Tourist tax powers and tax devolution for mayors",
+      "body": "Mayors can introduce an overnight visitor levy. They'll get 20% of business rates from next year and a share of income tax from 2028, with 100% of business rates kept locally by 2030. Healey calls it 'the most radical act of decentralisation in a generation'.",
+      "tag": "Confirmed",
+      "measure": "tourist-tax",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:11:00Z",
       "title": "£1.5bn more for regional mayors",
       "body": "Mayoral authorities get £1.5bn in flexible loans and new 'Good Growth Funds'. Named projects include the Black Country Metro extension, Gateshead Quayside regeneration and reopening Doncaster Airport.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T13:10:30Z",
       "title": "Money for Scotland, Wales and Northern Ireland",
       "body": "Wales: £30m for Cardiff Parkway station, £11m for Aberavon Bridge and £2.5m for a North Wales science park. Scotland: £18m for chip design at Edinburgh University and £6m for Glasgow's SEC. Northern Ireland: £7.5m for AI and cyber in Belfast.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T13:10:00Z",
       "title": "Regional projects across England",
       "body": "They include £20m to restore Liverpool's Littlewoods Building, £15m for Leeds College of Building, £10m each for Bristol Temple Quarter, Stafford market hall and Bury market, and £3m for Plymouth defence skills. Next spring's International Investment Summit will be held in Gateshead.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T13:08:00Z",

@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T15:11:00Z"
+    "lastUpdated": "2026-10-28T15:22:00Z"
   },
   "measures": [
     {
@@ -414,24 +414,32 @@
     {
       "id": "rental-profits",
       "category": "Tax",
-      "status": "expected",
-      "headline": "Tax on rental profits could rise by 2 points",
-      "detail": "Pre-Budget reporting suggests a 2 percentage point rise in the tax on rental income from 2027/28.",
-      "impact": "Landlords would pay more tax on rental profits. Some of the cost could be passed on to tenants. Not mentioned in the speech. We're checking the full Budget documents.",
+      "status": "confirmed",
+      "headline": "Rental income tax up 2 points from April 2027 (already planned)",
+      "detail": "This was set in the November 2025 Budget, not today. From April 2027, tax on rental profits in England, Wales and Northern Ireland rises to 22% (basic), 42% (higher) and 47% (additional). Healey didn't change it. Making Tax Digital also extends to landlords with income over £30,000 from April 2027.",
+      "impact": "Landlords pay 2p more per £1 of rental profit from April 2027. Some may try to pass the cost on to tenants.",
       "who": [
         "landlord",
         "renter"
       ],
-      "source": "Pre-Budget reporting"
+      "source": "November 2025 Budget, via landlord and tax guides",
+      "new": true
     }
   ],
   "updates": [
     {
+      "time": "2026-10-28T15:20:00Z",
+      "title": "Landlords: the 2p rise is still coming",
+      "body": "The higher tax on rental profits (22%, 42% and 47% from April 2027) was set last year, and Healey left it unchanged. We've updated the card to make clear it's already-planned, not new.",
+      "tag": "Explainer",
+      "measure": "rental-profits",
+      "new": true
+    },
+    {
       "time": "2026-10-28T15:05:00Z",
       "title": "Councils: still struggling",
       "body": "The Local Government Association welcomed the money for rough sleeping and social housing, but warned that with no overall rise in council funding, councils will keep struggling to meet demand.",
-      "tag": "Reaction",
-      "new": true
+      "tag": "Reaction"
     },
     {
       "time": "2026-10-28T14:58:00Z",

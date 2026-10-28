@@ -5,7 +5,7 @@
     "speechStart": "2026-10-28T12:30:00Z",
     "status": "pre",
     "statusNote": "The Chancellor is expected to stand up in the Commons at around 12:30. Some measures have already been briefed out this morning.",
-    "lastUpdated": "2026-10-28T08:55:00Z"
+    "lastUpdated": "2026-10-28T09:00:00Z"
   },
 
   "measures": [
@@ -15,7 +15,7 @@
       "status": "confirmed",
       "headline": "Standing charges on gas bills scrapped",
       "detail": "The Treasury says the fixed daily standing charge on household gas bills will go from 2027, or as soon as possible after that.",
-      "impact": "Reports suggest typical annual savings of roughly £22 to £50. Low-usage households gain the most; some won't see much change.",
+      "impact": "The charge is about £108 a year now, but the cost is expected to move into the price per unit of gas. Martin Lewis estimates around 60% of households will pay less, mostly low users, and 40% will pay more. Reports put typical savings at roughly £22 to £50 a year.",
       "who": ["everyone", "renter", "homeowner", "pensioner"],
       "source": "HM Treasury briefing, via LBC"
     },
@@ -43,9 +43,9 @@
       "id": "beer-duty",
       "category": "Tax",
       "status": "expected",
-      "headline": "Beer could go up by 2p a pint",
-      "detail": "Reports suggest the Chancellor will raise duty so that a pint of beer goes up by around 2p.",
-      "impact": "A small rise at the bar. Not confirmed yet.",
+      "headline": "Alcohol duty to rise with inflation (about 2p a pint)",
+      "detail": "Reports suggest alcohol duty will go up in line with RPI inflation (3.9%), which works out at about 2p on a pint of beer.",
+      "impact": "A small rise at the bar and in shops. Pubs say it adds to their costs. Not confirmed yet.",
       "who": ["everyone"],
       "source": "Pre-Budget reporting, via LBC"
     },
@@ -62,6 +62,20 @@
   ],
 
   "updates": [
+    {
+      "time": "2026-10-28T08:45:00Z",
+      "title": "Martin Lewis: most will pay less, but not everyone",
+      "body": "The money expert welcomed scrapping the gas standing charge, currently about £108 a year. He estimates around 60% of households will pay less and 40% more, as the cost moves into the price per unit. He also warned that the January price cap could rise by around 27%.",
+      "tag": "Reaction",
+      "measure": "gas-standing-charge"
+    },
+    {
+      "time": "2026-10-28T08:39:00Z",
+      "title": "Alcohol duty expected to rise with inflation",
+      "body": "Reports say alcohol duty will go up in line with RPI inflation (3.9%), adding about 2p to a pint. Pub groups warn this adds pressure on struggling venues.",
+      "tag": "Expected",
+      "measure": "beer-duty"
+    },
     {
       "time": "2026-10-28T08:34:00Z",
       "title": "Business owners call for 'courage'",

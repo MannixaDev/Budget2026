@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T11:31:00Z"
+    "lastUpdated": "2026-10-28T12:12:00Z"
   },
   "measures": [
     {
@@ -182,8 +182,7 @@
         "homeowner",
         "pensioner"
       ],
-      "source": "Pre-Budget reporting, via LBC",
-      "new": true
+      "source": "Pre-Budget reporting, via LBC"
     },
     {
       "id": "bank-surcharge",
@@ -237,19 +236,24 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:11:00Z",
+      "title": "PMQs underway before the Budget",
+      "body": "Andy Burnham opened Prime Minister's Questions at 12:04. Kemi Badenoch pressed him on the EU, and Burnham said there's 'no confusion': Labour's red lines, including no return to free movement, stay for this Parliament. The Budget speech follows straight after.",
+      "tag": "Latest",
+      "new": true
+    },
+    {
       "time": "2026-10-28T11:26:00Z",
       "title": "Energy help could be funded by the banks",
       "body": "Healey has promised 'breathing space' on costs. More support for lower-income homes through the Warm Homes scheme is tipped, possibly paid for by the bank levy. Tax changes are also expected.",
       "tag": "Expected",
-      "measure": "warm-homes",
-      "new": true
+      "measure": "warm-homes"
     },
     {
       "time": "2026-10-28T11:23:00Z",
       "title": "Red box out on the steps of No 11",
       "body": "Healey posed with the red Budget box outside Downing Street and is heading to the Commons for his first Budget speech.",
-      "tag": "Latest",
-      "new": true
+      "tag": "Latest"
     },
     {
       "time": "2026-10-28T11:18:00Z",

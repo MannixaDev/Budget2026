@@ -3,13 +3,13 @@
     "title": "Autumn Budget 2026",
     "chancellor": "John Healey",
     "speechStart": "2026-10-28T12:30:00Z",
-    "status": "live",
-    "statusNote": "Healey is on his feet in the Commons. Announcements are added here as he makes them. Badenoch replies afterwards, and the OBR press conference is at 14:30.",
+    "status": "post",
+    "statusNote": "The speech is over. Kemi Badenoch is replying for the Conservatives, and the OBR's press conference on the forecasts is at 14:30. The full Budget documents are on GOV.UK.",
     "stream": {
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:30:00Z"
+    "lastUpdated": "2026-10-28T13:36:00Z"
   },
   "measures": [
     {
@@ -59,13 +59,14 @@
       "category": "Tax",
       "status": "confirmed",
       "headline": "No rise in income tax, employee NI or VAT rates",
-      "detail": "The Chancellor has ruled out raising the rates of income tax, employee National Insurance and VAT, sticking to Labour's 2024 manifesto promise.",
+      "detail": "Confirmed in the speech: no rises in the rates of income tax, employee National Insurance or VAT, and no tax rises on wages or dividends. Extra revenue comes mainly from the banks and from tougher tax collection.",
       "impact": "The rates on your payslip and on most shopping won't go up. Taxes can still rise in other ways, though, for example by keeping thresholds frozen.",
       "who": [
         "everyone",
         "worker"
       ],
-      "source": "Chancellor's pre-Budget commitment"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "personal-allowance",
@@ -221,8 +222,7 @@
         "renter",
         "saver"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "council-housing",
@@ -234,8 +234,7 @@
       "who": [
         "renter"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "rough-sleeping",
@@ -247,8 +246,7 @@
       "who": [
         "everyone"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "fuel-duty",
@@ -418,28 +416,33 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:29:00Z",
+      "title": "Speech over: 'banks will give families breathing space'",
+      "body": "Healey wrapped up by calling it a Budget for workers, sole traders and parents: revenue raised from those who can afford it, no tax rises on wages or dividends, and tax cuts for millions of families and businesses. Next: Kemi Badenoch's reply, then the OBR at 14:30.",
+      "tag": "Breaking",
+      "measure": "no-rate-rises",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:27:00Z",
       "title": "Lifetime ISA replaced, new 'Your First Home' loans",
       "body": "A First Time Buyer ISA replaces the Lifetime ISA, and the LISA penalty is fixed from today. A £4.7bn equity loan scheme, 'Your First Home', starts next spring.",
       "tag": "Confirmed",
-      "measure": "first-time-buyers",
-      "new": true
+      "measure": "first-time-buyers"
     },
     {
       "time": "2026-10-28T13:26:00Z",
       "title": "Council housing boost",
       "body": "An extra £1.5bn for social and affordable homes, taking the total to £40bn. Cheaper council borrowing, VAT-free land sales to social landlords, and fewer biodiversity rules on brownfield sites.",
       "tag": "Confirmed",
-      "measure": "council-housing",
-      "new": true
+      "measure": "council-housing"
     },
     {
       "time": "2026-10-28T13:24:00Z",
       "title": "£430m for rough sleeping, every winter",
       "body": "Healey commits a further £430m to keep the rough sleeping offer open for the rest of the Parliament.",
       "tag": "Confirmed",
-      "measure": "rough-sleeping",
-      "new": true
+      "measure": "rough-sleeping"
     },
     {
       "time": "2026-10-28T13:23:00Z",

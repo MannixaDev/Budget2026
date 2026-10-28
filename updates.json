@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T15:02:00Z"
+    "lastUpdated": "2026-10-28T15:11:00Z"
   },
   "measures": [
     {
@@ -78,8 +78,7 @@
         "worker",
         "pensioner"
       ],
-      "source": "Budget speech and LBC round-up",
-      "new": true
+      "source": "Budget speech and LBC round-up"
     },
     {
       "id": "electricity-vat",
@@ -428,20 +427,25 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T15:05:00Z",
+      "title": "Councils: still struggling",
+      "body": "The Local Government Association welcomed the money for rough sleeping and social housing, but warned that with no overall rise in council funding, councils will keep struggling to meet demand.",
+      "tag": "Reaction",
+      "new": true
+    },
+    {
       "time": "2026-10-28T14:58:00Z",
       "title": "Tax-free allowance stays frozen",
       "body": "No rise in the £12,570 personal allowance was announced, so the freeze, in place since 2021 and due to last until 2031, continues. The IFS had put the cost of unfreezing it at £6.7bn–£8.4bn a year.",
       "tag": "Analysis",
-      "measure": "personal-allowance",
-      "new": true
+      "measure": "personal-allowance"
     },
     {
       "time": "2026-10-28T14:55:00Z",
       "title": "'Wasting another year' on defence, says Lib Dem MP",
       "body": "Mike Martin, who chairs the cross-party rearmament group, says putting off a decision on reaching 3.5% leaves Britain 'sleepwalking into a conflict with Russia'.",
       "tag": "Reaction",
-      "measure": "defence",
-      "new": true
+      "measure": "defence"
     },
     {
       "time": "2026-10-28T14:37:00Z",

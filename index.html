@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Budget 2026 Live</title>
+<meta name="description" content="Autumn Budget 2026, tracked live and explained in plain English: what's confirmed, what's rumoured, and what it means for you.">
+<meta property="og:title" content="Budget 2026 Live">
+<meta property="og:description" content="The UK Autumn Budget, tracked live and explained in plain English.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f6f5f1;
+  --surface: #ffffff;
+  --surface-2: #efede6;
+  --text: #16181d;
+  --muted: #5d6270;
+  --border: #e1ded4;
+  --accent: #b4123c;
+  --accent-soft: #fbe8ed;
+  --confirmed: #0f7b4a;
+  --confirmed-soft: #e3f4ea;
+  --expected: #9a5b00;
+  --expected-soft: #fbf0dc;
+  --dropped: #5d6270;
+  --dropped-soft: #ecebe6;
+  --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.04);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111317;
+    --surface: #1a1d23;
+    --surface-2: #23272f;
+    --text: #eceef2;
+    --muted: #9aa0ad;
+    --border: #2d323b;
+    --accent: #ff5c80;
+    --accent-soft: #3a1a24;
+    --confirmed: #4fd197;
+    --confirmed-soft: #15322a;
+    --expected: #f2b45a;
+    --expected-soft: #3a2c15;
+    --dropped: #9aa0ad;
+    --dropped-soft: #2a2e36;
+    --shadow: none;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111317; --surface: #1a1d23; --surface-2: #23272f; --text: #eceef2; --muted: #9aa0ad;
+  --border: #2d323b; --accent: #ff5c80; --accent-soft: #3a1a24; --confirmed: #4fd197; --confirmed-soft: #15322a;
+  --expected: #f2b45a; --expected-soft: #3a2c15; --dropped: #9aa0ad; --dropped-soft: #2a2e36; --shadow: none;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.55 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+a { color: inherit; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+
+/* Top bar */
+.topbar {
+  position: sticky; top: 0; z-index: 10;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: saturate(1.4) blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.topbar .wrap { display: flex; align-items: center; gap: 12px; height: 56px; }
+.brand { font-weight: 800; letter-spacing: -.01em; white-space: nowrap; }
+.brand span { color: var(--accent); }
+.spacer { flex: 1; }
+.pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  padding: 4px 10px; border-radius: 999px;
+  background: var(--accent-soft); color: var(--accent);
+  white-space: nowrap;
+}
+.pill .dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.pill.live .dot { animation: pulse 1.4s infinite; }
+@keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .25 } }
+.sync { font-size: 13px; color: var(--muted); white-space: nowrap; }
+.iconbtn {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  width: 34px; height: 34px; border-radius: 8px; cursor: pointer; font-size: 16px; line-height: 1;
+}
+
+/* Hero */
+.hero { padding: 40px 0 24px; }
+.hero h1 { font-size: clamp(30px, 6vw, 52px); line-height: 1.05; letter-spacing: -.03em; margin: 0 0 12px; }
+.hero p.lede { font-size: 18px; color: var(--muted); max-width: 680px; margin: 0; }
+.statusbox {
+  margin-top: 24px; padding: 16px 18px; border-radius: 12px;
+  background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow);
+  display: flex; gap: 20px; align-items: center; flex-wrap: wrap;
+}
+.countdown { font-variant-numeric: tabular-nums; font-size: 28px; font-weight: 800; letter-spacing: -.02em; }
+.countdown small { display: block; font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+.statusbox .note { flex: 1; min-width: 220px; color: var(--muted); font-size: 15px; }
+
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 16px; }
+.stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.stat b { display: block; font-size: 26px; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.stat span { font-size: 13px; color: var(--muted); }
+.stat.c b { color: var(--confirmed); }
+.stat.e b { color: var(--expected); }
+
+/* Sections */
+h2 { font-size: 22px; letter-spacing: -.02em; margin: 40px 0 6px; }
+.sub { color: var(--muted); margin: 0 0 16px; font-size: 15px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.chip {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  padding: 8px 14px; border-radius: 999px; font: inherit; font-size: 14px; font-weight: 500; cursor: pointer;
+}
+.chip[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+.chip:focus-visible, .iconbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  padding: 18px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 10px;
+}
+.card-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.cat { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.badge { font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+.badge.confirmed { background: var(--confirmed-soft); color: var(--confirmed); }
+.badge.expected { background: var(--expected-soft); color: var(--expected); }
+.badge.dropped { background: var(--dropped-soft); color: var(--dropped); }
+.card h3 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
+.card p { margin: 0; font-size: 15px; }
+.impact { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; font-size: 14px; }
+.impact b { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 2px; }
+.src { font-size: 12px; color: var(--muted); margin-top: auto; }
+.empty { color: var(--muted); padding: 24px; text-align: center; border: 1px dashed var(--border); border-radius: 14px; }
+
+/* Timeline */
+.feed { list-style: none; margin: 0; padding: 0; position: relative; }
+.feed::before { content: ""; position: absolute; left: 62px; top: 6px; bottom: 6px; width: 2px; background: var(--border); }
+.entry { display: grid; grid-template-columns: 52px 1fr; gap: 22px; padding: 0 0 22px; position: relative; }
+.entry time { font-weight: 700; font-variant-numeric: tabular-nums; font-size: 15px; text-align: right; padding-top: 1px; }
+.entry::after {
+  content: ""; position: absolute; left: 58px; top: 7px; width: 10px; height: 10px; border-radius: 50%;
+  background: var(--bg); border: 2px solid var(--muted);
+}
+.entry.breaking::after, .entry.is-new::after { border-color: var(--accent); background: var(--accent); }
+.entry .body { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+.entry.is-new .body { border-color: var(--accent); animation: flash 2.5s ease-out; }
+@keyframes flash { from { background: var(--accent-soft); } to { background: var(--surface); } }
+.entry h4 { margin: 2px 0 4px; font-size: 16px; line-height: 1.35; }
+.entry p { margin: 0; font-size: 15px; color: var(--text); }
+.tag { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+.entry.breaking .tag { color: var(--accent); }
+.newbar {
+  position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%);
+  background: var(--accent); color: #fff; border: 0; border-radius: 999px; padding: 10px 18px;
+  font: inherit; font-weight: 700; font-size: 14px; cursor: pointer; box-shadow: 0 6px 20px rgba(0,0,0,.2);
+  display: none; z-index: 20;
+}
+.newbar.show { display: block; }
+
+.layout { display: grid; grid-template-columns: 1fr; gap: 0 32px; }
+@media (min-width: 900px) {
+  .layout { grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); }
+  .layout .side { position: sticky; top: 72px; align-self: start; max-height: calc(100vh - 88px); overflow: auto; padding-right: 4px; }
+}
+
+.glossary dl { margin: 0; }
+.glossary dt { font-weight: 700; margin-top: 12px; }
+.glossary dd { margin: 2px 0 0; color: var(--muted); font-size: 15px; }
+
+footer { margin: 56px 0 32px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+
+@media (max-width: 560px) {
+  .sync { display: none; }
+  .stats { grid-template-columns: repeat(3, minmax(0,1fr)); gap: 8px; }
+  .stat { padding: 10px 12px; }
+  .stat b { font-size: 22px; }
+  .grid { grid-template-columns: 1fr; }
+  .feed::before { left: 50px; }
+  .entry { grid-template-columns: 42px 1fr; gap: 20px; }
+  .entry::after { left: 46px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pill.live .dot, .entry.is-new .body { animation: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">Budget<span>2026</span> Live</div>
+    <span class="pill" id="phasePill"><span class="dot"></span><span id="phaseText">Loading</span></span>
+    <div class="spacer"></div>
+    <span class="sync" id="sync" aria-live="polite"></span>
+    <button class="iconbtn" id="themeBtn" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1 id="title">Autumn Budget 2026</h1>
+    <p class="lede">The Budget as it happens, in plain English: what's been confirmed, what's still just rumour, and what it means for your money.</p>
+
+    <div class="statusbox">
+      <div class="countdown" id="countdown"><small>Speech starts in</small>--:--:--</div>
+      <div class="note" id="statusNote"></div>
+    </div>
+
+    <div class="stats">
+      <div class="stat c"><b id="nConfirmed">0</b><span>Confirmed</span></div>
+      <div class="stat e"><b id="nExpected">0</b><span>Expected / rumoured</span></div>
+      <div class="stat"><b id="nUpdates">0</b><span>Live updates</span></div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <div>
+      <h2 id="measures-h">What's in it for me?</h2>
+      <p class="sub">Choose what applies to you to see the measures that affect you.</p>
+      <div class="chips" id="whoChips" role="group" aria-label="Filter by who it affects"></div>
+      <div class="chips" id="catChips" role="group" aria-label="Filter by topic"></div>
+      <div class="grid" id="measures" aria-live="polite"></div>
+    </div>
+
+    <aside class="side">
+      <h2 id="feed-h">Live updates</h2>
+      <p class="sub">Times are UK time. This page checks for new updates every minute.</p>
+      <ol class="feed" id="feed" aria-labelledby="feed-h"></ol>
+    </aside>
+  </div>
+
+  <section class="glossary">
+    <h2>Budget jargon, decoded</h2>
+    <dl>
+      <dt>OBR</dt>
+      <dd>The Office for Budget Responsibility. It's the independent watchdog that publishes the official forecasts for growth, borrowing and inflation alongside the Budget.</dd>
+      <dt>Fiscal headroom</dt>
+      <dd>How much room the Chancellor has before breaking their own borrowing rules. Less headroom means less money for giveaways.</dd>
+      <dt>Fiscal drag</dt>
+      <dd>When tax thresholds are frozen while wages rise, more people end up paying higher rates of tax, even though the rates themselves haven't changed.</dd>
+      <dt>Standing charge</dt>
+      <dd>The fixed daily amount on an energy bill that you pay however much energy you use.</dd>
+      <dt>Gilts</dt>
+      <dd>UK government bonds, which is how the government borrows. If investors get nervous, gilt yields rise and borrowing gets more expensive.</dd>
+      <dt>Red Book</dt>
+      <dd>The full official Budget document, published on GOV.UK once the speech ends.</dd>
+    </dl>
+  </section>
+
+  <footer>
+    Independent summary, not affiliated with HM Treasury. "Expected" items are based on pre-Budget reporting and may change.
+    For official details, see <a href="https://www.gov.uk/government/topical-events/autumn-budget-2026" rel="noopener">GOV.UK</a>.
+    <br>Last updated: <span id="lastUpdated">–</span>
+  </footer>
+</main>
+
+<button class="newbar" id="newbar">New updates ↑</button>
+
+<script>
+(() => {
+  const DATA_URL = 'updates.json';
+  const POLL_MS = 60_000;
+  const TZ = 'Europe/London';
+
+  const WHO = [
+    ['all', 'Everything'],
+    ['everyone', 'Everyone'],
+    ['renter', 'Renters'],
+    ['homeowner', 'Homeowners'],
+    ['landlord', 'Landlords'],
+    ['saver', 'Savers'],
+    ['pensioner', 'Pensioners'],
+    ['worker', 'Workers'],
+    ['parent', 'Parents'],
+    ['driver', 'Drivers'],
+    ['business', 'Business owners'],
+  ];
+  const STATUS_LABEL = { confirmed: 'Confirmed', expected: 'Expected', dropped: 'Dropped' };
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const fmtTime = (iso) => new Date(iso).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: TZ });
+  const fmtFull = (iso) => new Date(iso).toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: TZ });
+
+  let data = null;
+  let seen = new Set();
+  let firstLoad = true;
+  let whoFilter = 'all';
+  let catFilter = 'All';
+
+  // Theme toggle (remembered per browser)
+  const root = document.documentElement;
+  try { const t = localStorage.getItem('theme'); if (t) root.dataset.theme = t; } catch {}
+  $('themeBtn').addEventListener('click', () => {
+    const dark = root.dataset.theme
+      ? root.dataset.theme === 'dark'
+      : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem('theme', root.dataset.theme); } catch {}
+  });
+
+  function chip(label, pressed, onClick) {
+    const b = document.createElement('button');
+    b.className = 'chip';
+    b.textContent = label;
+    b.setAttribute('aria-pressed', pressed);
+    b.addEventListener('click', onClick);
+    return b;
+  }
+
+  function renderChips() {
+    const used = new Set(data.measures.flatMap((m) => m.who || []));
+    const who = $('whoChips');
+    who.replaceChildren(...WHO.filter(([k]) => k === 'all' || used.has(k)).map(([k, label]) =>
+      chip(label, whoFilter === k, () => { whoFilter = k; renderChips(); renderMeasures(); })));
+
+    const cats = ['All', ...new Set(data.measures.map((m) => m.category))];
+    $('catChips').replaceChildren(...cats.map((c) =>
+      chip(c, catFilter === c, () => { catFilter = c; renderChips(); renderMeasures(); })));
+  }
+
+  function renderMeasures() {
+    const order = { confirmed: 0, expected: 1, dropped: 2 };
+    const list = data.measures
+      .filter((m) => whoFilter === 'all' || (m.who || []).includes(whoFilter) || (m.who || []).includes('everyone'))
+      .filter((m) => catFilter === 'All' || m.category === catFilter)
+      .sort((a, b) => (order[a.status] ?? 9) - (order[b.status] ?? 9));
+
+    $('measures').innerHTML = list.length ? list.map((m) => `
+      <article class="card" id="m-${esc(m.id)}">
+        <div class="card-top">
+          <span class="cat">${esc(m.category)}</span>
+          <span class="badge ${esc(m.status)}">${esc(STATUS_LABEL[m.status] || m.status)}</span>
+        </div>
+        <h3>${esc(m.headline)}</h3>
+        <p>${esc(m.detail)}</p>
+        ${m.impact ? `<div class="impact"><b>What it means</b>${esc(m.impact)}</div>` : ''}
+        ${m.source ? `<div class="src">Source: ${esc(m.source)}</div>` : ''}
+      </article>`).join('')
+      : `<div class="empty">Nothing announced for this group yet. Check back after the speech.</div>`;
+  }
+
+  function renderFeed() {
+    const items = [...data.updates].sort((a, b) => new Date(b.time) - new Date(a.time));
+    let fresh = 0;
+    $('feed').innerHTML = items.map((u) => {
+      const key = u.time + '|' + u.title;
+      const isNew = !firstLoad && !seen.has(key);
+      if (isNew) fresh++;
+      const breaking = /breaking/i.test(u.tag || '');
+      return `
+        <li class="entry${breaking ? ' breaking' : ''}${isNew ? ' is-new' : ''}">
+          <time datetime="${esc(u.time)}">${fmtTime(u.time)}</time>
+          <div class="body">
+            ${u.tag ? `<span class="tag">${esc(u.tag)}</span>` : ''}
+            <h4>${esc(u.title)}</h4>
+            ${u.body ? `<p>${esc(u.body)}</p>` : ''}
+            ${u.measure ? `<p class="src"><a href="#m-${esc(u.measure)}">See what it means ↓</a></p>` : ''}
+          </div>
+        </li>`;
+    }).join('');
+    items.forEach((u) => seen.add(u.time + '|' + u.title));
+    if (fresh && window.scrollY > 400) $('newbar').classList.add('show');
+    if (fresh) document.title = `(${fresh}) Budget 2026 Live`;
+  }
+
+  function renderMeta() {
+    const m = data.meta;
+    $('title').textContent = m.title;
+    $('statusNote').textContent = m.statusNote || '';
+    $('lastUpdated').textContent = fmtFull(m.lastUpdated);
+    $('nConfirmed').textContent = data.measures.filter((x) => x.status === 'confirmed').length;
+    $('nExpected').textContent = data.measures.filter((x) => x.status === 'expected').length;
+    $('nUpdates').textContent = data.updates.length;
+    tick();
+  }
+
+  // Phase: "pre" (countdown), "live" (speech underway), "post" (done). Falls back to the clock if unset.
+  function phase() {
+    const s = data?.meta?.status;
+    if (s === 'live' || s === 'post') return s;
+    return Date.now() >= new Date(data?.meta?.speechStart).getTime() ? 'live' : 'pre';
+  }
+
+  function tick() {
+    if (!data) return;
+    const p = phase();
+    const pill = $('phasePill');
+    pill.classList.toggle('live', p === 'live');
+    $('phaseText').textContent = p === 'live' ? 'Live' : p === 'post' ? 'Speech over' : 'Budget day';
+    const cd = $('countdown');
+    if (p === 'pre') {
+      const ms = Math.max(0, new Date(data.meta.speechStart) - Date.now());
+      const h = Math.floor(ms / 3.6e6), mi = Math.floor(ms / 6e4) % 60, s = Math.floor(ms / 1e3) % 60;
+      cd.innerHTML = `<small>Speech starts in</small>${String(h).padStart(2, '0')}:${String(mi).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    } else if (p === 'live') {
+      cd.innerHTML = `<small>Chancellor ${esc(data.meta.chancellor)}</small>Speaking now`;
+    } else {
+      cd.innerHTML = `<small>Speech finished</small>Full analysis`;
+    }
+  }
+
+  async function load() {
+    try {
+      const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: 'no-store' });
+      if (!res.ok) throw new Error(res.status);
+      data = await res.json();
+      renderMeta();
+      renderChips();
+      renderMeasures();
+      renderFeed();
+      firstLoad = false;
+      $('sync').textContent = 'Checked ' + new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: TZ });
+    } catch (e) {
+      $('sync').textContent = 'Couldn’t refresh, retrying…';
+      if (firstLoad) $('feed').innerHTML = '<li class="empty">Updates couldn’t load. If you opened this file directly, serve it over http (or view it on GitHub Pages).</li>';
+    }
+  }
+
+  $('newbar').addEventListener('click', () => {
+    $('feed-h').scrollIntoView({ behavior: 'smooth' });
+    $('newbar').classList.remove('show');
+    document.title = 'Budget 2026 Live';
+  });
+  addEventListener('focus', () => { document.title = 'Budget 2026 Live'; });
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
+
+  load();
+  setInterval(load, POLL_MS);
+  setInterval(tick, 1000);
+})();
+</script>
+</body>
+</html>

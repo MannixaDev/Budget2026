@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Autumn Budget 2026",
+    "chancellor": "John Healey",
+    "speechStart": "2026-10-28T12:30:00Z",
+    "status": "pre",
+    "statusNote": "The Chancellor is expected to stand up in the Commons at around 12:30. Some measures have already been briefed out this morning.",
+    "lastUpdated": "2026-10-28T08:40:00Z"
+  },
+
+  "measures": [
+    {
+      "id": "gas-standing-charge",
+      "category": "Energy",
+      "status": "confirmed",
+      "headline": "Standing charges on gas bills scrapped",
+      "detail": "The Treasury says the fixed daily standing charge on household gas bills will go from 2027, or as soon as possible after that.",
+      "impact": "Reports suggest typical annual savings of roughly £22 to £50. Low-usage households gain the most; some won't see much change.",
+      "who": ["everyone", "renter", "homeowner", "pensioner"],
+      "source": "HM Treasury briefing, via LBC"
+    },
+    {
+      "id": "cash-isa",
+      "category": "Savings",
+      "status": "confirmed",
+      "headline": "Cash ISA limit stays at £20,000",
+      "detail": "The previous plan to cut the cash ISA allowance for under-65s has been dropped.",
+      "impact": "You can keep putting up to £20,000 a year into a cash ISA, tax-free.",
+      "who": ["saver"],
+      "source": "Treasury, via LBC"
+    },
+    {
+      "id": "small-business-rates",
+      "category": "Business",
+      "status": "expected",
+      "headline": "Small business rates relief threshold could rise",
+      "detail": "Pre-Budget reports suggest the threshold for small business rates relief may go up from £12,000 to around £17,000.",
+      "impact": "More small shops and premises could pay less or no business rates. Not confirmed yet.",
+      "who": ["business"],
+      "source": "Pre-Budget reporting"
+    },
+    {
+      "id": "rental-profits",
+      "category": "Tax",
+      "status": "expected",
+      "headline": "Tax on rental profits could rise by 2 points",
+      "detail": "Pre-Budget reporting suggests a 2 percentage point rise in the tax on rental income from 2027/28.",
+      "impact": "Landlords would pay more tax on rental profits. Some of the cost could be passed on to tenants. Not confirmed yet.",
+      "who": ["landlord", "renter"],
+      "source": "Pre-Budget reporting"
+    }
+  ],
+
+  "updates": [
+    {
+      "time": "2026-10-28T08:34:00Z",
+      "title": "Business owners call for 'courage'",
+      "body": "A London bakery founder says rising minimum wage costs are putting firms off taking on trainees and apprentices, and wants the Chancellor to be bolder.",
+      "tag": "Reaction"
+    },
+    {
+      "time": "2026-10-28T08:05:00Z",
+      "title": "Greens: scrapping standing charges is 'tinkering'",
+      "body": "The Green Party says the gas standing charge move doesn't go far enough on the cost of living.",
+      "tag": "Reaction"
+    },
+    {
+      "time": "2026-10-28T08:03:00Z",
+      "title": "Fuel poverty campaigners welcome the move, with caveats",
+      "body": "The End Fuel Poverty Coalition calls it 'real relief' for many households but warns that some won't see savings.",
+      "tag": "Reaction"
+    },
+    {
+      "time": "2026-10-28T06:58:00Z",
+      "title": "Gas standing charges to be scrapped",
+      "body": "The Treasury confirms standing charges on household gas bills will be removed from 2027, or as soon as possible after.",
+      "tag": "Breaking",
+      "measure": "gas-standing-charge"
+    },
+    {
+      "time": "2026-10-28T06:34:00Z",
+      "title": "Cash ISA cut dropped",
+      "body": "John Healey has scrapped his predecessor's plan to cut the cash ISA limit. It stays at £20,000.",
+      "tag": "Confirmed",
+      "measure": "cash-isa"
+    },
+    {
+      "time": "2026-10-28T06:17:00Z",
+      "title": "Expect a cautious Budget",
+      "body": "Room for manoeuvre is tight because of high debt costs and talk of a possible December election. Most commentators expect few big surprises.",
+      "tag": "Analysis"
+    },
+    {
+      "time": "2026-10-28T05:12:00Z",
+      "title": "It's Budget Day",
+      "body": "The Chancellor's first priority is expected to be reassuring bond markets. The speech is due around 12:30.",
+      "tag": "Preview"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T16:24:00Z"
+    "lastUpdated": "2026-10-28T16:33:00Z"
   },
   "measures": [
     {
@@ -40,8 +40,7 @@
         "homeowner",
         "pensioner"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "cash-isa",
@@ -79,8 +78,7 @@
         "worker",
         "pensioner"
       ],
-      "source": "Budget speech and post-Budget coverage",
-      "new": true
+      "source": "Budget speech and post-Budget coverage"
     },
     {
       "id": "electricity-vat",
@@ -159,8 +157,7 @@
         "worker",
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "carers",
@@ -198,8 +195,7 @@
       "who": [
         "everyone"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "welfare-reform",
@@ -238,6 +234,19 @@
         "renter"
       ],
       "source": "Budget speech"
+    },
+    {
+      "id": "literacy",
+      "category": "Education",
+      "status": "confirmed",
+      "headline": "£15m for children's literacy and books",
+      "detail": "£15m goes to charities that promote children's literacy and get books to young children. It has drawn comparisons with Dolly Parton's Imagination Library.",
+      "impact": "More free books and reading support for young children.",
+      "who": [
+        "parent"
+      ],
+      "source": "Budget coverage",
+      "new": true
     },
     {
       "id": "rough-sleeping",
@@ -345,8 +354,8 @@
       "id": "gambling-online",
       "category": "Tax",
       "status": "confirmed",
-      "headline": "Gaming duty up from 20% to 25%; new rules for online sellers",
-      "detail": "Gaming duty on bookmakers rises from 20% to 25%, a smaller rise than the industry feared. Online sellers and large taxi firms face new sales tax rules.",
+      "headline": "Machine gaming duty up from 20% to 25%; new rules for online sellers",
+      "detail": "Machine gaming duty rises from 20% to 25%, a smaller rise than the industry feared. Online sellers and large taxi firms face new sales tax rules.",
       "impact": "Betting firms pay more. If you sell online at scale, check how the new rules affect you.",
       "who": [
         "business"
@@ -386,11 +395,12 @@
       "status": "confirmed",
       "headline": "70,000 more small firms pay no business rates",
       "detail": "For retail, hospitality and leisure businesses, the Small Business Rate Relief threshold rises from £12,000 to £18,000.",
-      "impact": "70,000 more shops, cafés, pubs and gyms pay no business rates at all. Half of all shops, restaurants and gyms will now pay none.",
+      "impact": "70,000 more shops, cafés, pubs and gyms pay no business rates at all, and rate rises are held to inflation for two years. These rules cover England. Northern Ireland and the other nations set their own.",
       "who": [
         "business"
       ],
-      "source": "Budget speech"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "small-brewers",
@@ -432,11 +442,18 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T16:30:00Z",
+      "title": "More details emerging",
+      "body": "£15m goes to children's literacy charities (compared with Dolly Parton's book scheme). Small business rate rises are held to inflation for two years. The machine gaming duty rise is 20% to 25%, and fuel duty is now frozen for a 16th year. The £100 payment is for England, and other nations get the funding to decide.",
+      "tag": "Confirmed",
+      "measure": "literacy",
+      "new": true
+    },
+    {
       "time": "2026-10-28T16:20:00Z",
       "title": "Winners and losers: the verdict so far",
       "body": "The winners are energy bill payers (about 60% save around £45 a year on gas), low-paid workers (+3.9%), and banks and bookmakers, whose rises (bank surcharge to 6%, gaming duty to 25%) were smaller than feared. Losers are earners caught by the frozen £12,570 allowance, plus a growth outlook cut to 1% for 2027. Commentators call it a Budget that 'didn't frighten the horses'.",
-      "tag": "Analysis",
-      "new": true
+      "tag": "Analysis"
     },
     {
       "time": "2026-10-28T15:52:00Z",

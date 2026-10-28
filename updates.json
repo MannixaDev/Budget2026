@@ -3,13 +3,13 @@
     "title": "Autumn Budget 2026",
     "chancellor": "John Healey",
     "speechStart": "2026-10-28T12:30:00Z",
-    "status": "pre",
-    "statusNote": "Healey speaks at 12:30 after PMQs, Badenoch replies at around 13:30, and the OBR's forecast press conference is at 14:30. Some measures were briefed out this morning.",
+    "status": "live",
+    "statusNote": "Healey is on his feet in the Commons. Announcements are added here as he makes them. Badenoch replies afterwards, and the OBR press conference is at 14:30.",
     "stream": {
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T12:30:00Z"
+    "lastUpdated": "2026-10-28T12:36:00Z"
   },
   "measures": [
     {
@@ -236,11 +236,31 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:34:00Z",
+      "title": "Three priorities: costs, business, and public services",
+      "body": "Healey's priorities are 'breathing space' on household and business costs, backing British firms to grow, and action on energy, national security, public services and housing. He says the Budget offers 'fresh hope' and ties it to a 10-Year Plan and next year's Spending Review.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:33:00Z",
+      "title": "'A Budget for the working people of Britain'",
+      "body": "Healey opens by calling this a Budget for working people and businesses of all sizes, built on fiscal discipline.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:32:00Z",
+      "title": "Healey is on his feet",
+      "body": "The Chancellor has stood up at the dispatch box to begin his first Budget speech.",
+      "tag": "Breaking",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:26:00Z",
       "title": "Borrowing is running above forecast",
       "body": "The government borrowed £24.5bn last month, more than expected. That takes borrowing so far this financial year to £97.8bn, about £6bn above the OBR's forecast, which leaves Healey little room for giveaways.",
-      "tag": "Analysis",
-      "new": true
+      "tag": "Analysis"
     },
     {
       "time": "2026-10-28T12:20:00Z",

@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:12:00Z"
+    "lastUpdated": "2026-10-28T13:15:00Z"
   },
   "measures": [
     {
@@ -248,8 +248,7 @@
         "worker",
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "founders-relief",
@@ -261,8 +260,7 @@
       "who": [
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "capital-allowances",
@@ -288,8 +286,7 @@
         "worker",
         "landlord"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "bank-surcharge",
@@ -355,28 +352,46 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:11:00Z",
+      "title": "£1.5bn more for regional mayors",
+      "body": "Mayoral authorities get £1.5bn in flexible loans and new 'Good Growth Funds'. Named projects include the Black Country Metro extension, Gateshead Quayside regeneration and reopening Doncaster Airport.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:10:30Z",
+      "title": "Money for Scotland, Wales and Northern Ireland",
+      "body": "Wales: £30m for Cardiff Parkway station, £11m for Aberavon Bridge and £2.5m for a North Wales science park. Scotland: £18m for chip design at Edinburgh University and £6m for Glasgow's SEC. Northern Ireland: £7.5m for AI and cyber in Belfast.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:10:00Z",
+      "title": "Regional projects across England",
+      "body": "They include £20m to restore Liverpool's Littlewoods Building, £15m for Leeds College of Building, £10m each for Bristol Temple Quarter, Stafford market hall and Bury market, and £3m for Plymouth defence skills. Next spring's International Investment Summit will be held in Gateshead.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:08:00Z",
       "title": "10% 'Founders' Relief' on up to £10m",
       "body": "A new Capital Gains Tax relief lets founders of successful firms pay 10% on up to £10m of lifetime gains.",
       "tag": "Confirmed",
-      "measure": "founders-relief",
-      "new": true
+      "measure": "founders-relief"
     },
     {
       "time": "2026-10-28T13:07:30Z",
       "title": "Side-hustle allowance tripled to £3,000",
       "body": "The tax-free trading allowance goes from £1,000 to £3,000. There's a Young Entrepreneurs Allowance covering a year's living costs, £200m for women-led businesses, and visa and non-compete reforms so staff can move between start-ups more easily.",
       "tag": "Confirmed",
-      "measure": "trading-allowance",
-      "new": true
+      "measure": "trading-allowance"
     },
     {
       "time": "2026-10-28T13:07:00Z",
       "title": "Self-assessment: pay little and often",
       "body": "From 2029, self-assessed income tax will be collected in smaller, regular payments instead of big bills.",
       "tag": "Confirmed",
-      "measure": "hmrc-crackdown",
-      "new": true
+      "measure": "hmrc-crackdown"
     },
     {
       "time": "2026-10-28T13:05:00Z",

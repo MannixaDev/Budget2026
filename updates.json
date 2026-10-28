@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T16:33:00Z"
+    "lastUpdated": "2026-10-28T16:43:00Z"
   },
   "measures": [
     {
@@ -245,8 +245,7 @@
       "who": [
         "parent"
       ],
-      "source": "Budget coverage",
-      "new": true
+      "source": "Budget coverage"
     },
     {
       "id": "rough-sleeping",
@@ -360,8 +359,7 @@
       "who": [
         "business"
       ],
-      "source": "Budget round-up, via LBC",
-      "new": true
+      "source": "Budget round-up, via LBC"
     },
     {
       "id": "hmrc-crackdown",
@@ -399,7 +397,19 @@
       "who": [
         "business"
       ],
-      "source": "Budget speech",
+      "source": "Budget speech"
+    },
+    {
+      "id": "pubs",
+      "category": "Business",
+      "status": "confirmed",
+      "headline": "20% business rates cut for pubs, clubs and music venues",
+      "detail": "Pubs, clubs and music venues get a 20% cut in business rates. A new 'Guest Beer' rule lets tied pub tenants in England and Wales stock more beers of their choice.",
+      "impact": "Lower running costs for pubs and venues, which partly offsets the alcohol duty rise.",
+      "who": [
+        "business"
+      ],
+      "source": "Budget, via trade press",
       "new": true
     },
     {
@@ -417,14 +427,15 @@
     {
       "id": "beer-duty",
       "category": "Tax",
-      "status": "expected",
-      "headline": "Alcohol duty to rise with inflation (about 2p a pint)",
-      "detail": "Reports suggest alcohol duty will go up in line with RPI inflation (3.9%), which works out at about 2p on a pint of beer.",
-      "impact": "A small rise at the bar and in shops. Pubs say it adds to their costs. Not mentioned in the speech. We're checking the full Budget documents.",
+      "status": "confirmed",
+      "headline": "Alcohol duty up 3.9% from February (about 2p a pint)",
+      "detail": "Alcohol duty rises in line with RPI inflation (3.9%) from 1 February 2027. That's about 2p more duty on a pint, and estimates suggest around 10–12p on a bottle of wine and about 35p on a bottle of gin.",
+      "impact": "Slightly dearer drinks in pubs and shops from February. Pub groups wanted a freeze and call it the wrong move.",
       "who": [
         "everyone"
       ],
-      "source": "Pre-Budget reporting, via LBC"
+      "source": "Budget, via trade press",
+      "new": true
     },
     {
       "id": "rental-profits",
@@ -442,12 +453,19 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T16:40:00Z",
+      "title": "Alcohol duty confirmed up 3.9%, but pubs get a rates cut",
+      "body": "Duty rises with inflation from 1 February 2027, about 2p a pint. Pubs, clubs and music venues get 20% off business rates, and tied tenants get a 'Guest Beer' right. The pub trade wanted a freeze and called the rise 'the wrong thing to do'.",
+      "tag": "Confirmed",
+      "measure": "beer-duty",
+      "new": true
+    },
+    {
       "time": "2026-10-28T16:30:00Z",
       "title": "More details emerging",
       "body": "£15m goes to children's literacy charities (compared with Dolly Parton's book scheme). Small business rate rises are held to inflation for two years. The machine gaming duty rise is 20% to 25%, and fuel duty is now frozen for a 16th year. The £100 payment is for England, and other nations get the funding to decide.",
       "tag": "Confirmed",
-      "measure": "literacy",
-      "new": true
+      "measure": "literacy"
     },
     {
       "time": "2026-10-28T16:20:00Z",

@@ -9,7 +9,7 @@
       "embed": "",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T11:22:00Z"
+    "lastUpdated": "2026-10-28T11:31:00Z"
   },
   "measures": [
     {
@@ -92,8 +92,7 @@
         "driver",
         "business"
       ],
-      "source": "Government announcement",
-      "new": true
+      "source": "Government announcement"
     },
     {
       "id": "food-tariffs",
@@ -105,8 +104,7 @@
       "who": [
         "everyone"
       ],
-      "source": "Government announcement",
-      "new": true
+      "source": "Government announcement"
     },
     {
       "id": "paternity-self-employed",
@@ -119,8 +117,7 @@
         "parent",
         "worker"
       ],
-      "source": "Government announcement",
-      "new": true
+      "source": "Government announcement"
     },
     {
       "id": "minimum-wage",
@@ -146,8 +143,7 @@
         "worker",
         "parent"
       ],
-      "source": "Government announcement",
-      "new": true
+      "source": "Government announcement"
     },
     {
       "id": "rough-sleeping",
@@ -173,6 +169,21 @@
         "business"
       ],
       "source": "Pre-Budget reporting"
+    },
+    {
+      "id": "warm-homes",
+      "category": "Energy",
+      "status": "expected",
+      "headline": "More energy help for lower-income homes",
+      "detail": "An expansion of the Warm Homes scheme is expected, which helps lower-income households with energy costs and insulation. It could be paid for by the bank levy.",
+      "impact": "If you're on a lower income, you could get more help with bills or home upgrades this winter. Details to come.",
+      "who": [
+        "renter",
+        "homeowner",
+        "pensioner"
+      ],
+      "source": "Pre-Budget reporting, via LBC",
+      "new": true
     },
     {
       "id": "bank-surcharge",
@@ -226,11 +237,25 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T11:26:00Z",
+      "title": "Energy help could be funded by the banks",
+      "body": "Healey has promised 'breathing space' on costs. More support for lower-income homes through the Warm Homes scheme is tipped, possibly paid for by the bank levy. Tax changes are also expected.",
+      "tag": "Expected",
+      "measure": "warm-homes",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T11:23:00Z",
+      "title": "Red box out on the steps of No 11",
+      "body": "Healey posed with the red Budget box outside Downing Street and is heading to the Commons for his first Budget speech.",
+      "tag": "Latest",
+      "new": true
+    },
+    {
       "time": "2026-10-28T11:18:00Z",
       "title": "Five 'everyday fixes' already announced",
       "body": "Ahead of the speech, the government confirmed: a taper replacing the Carer's Allowance cliff edge, tariffs dropped on 100+ supermarket items (about £21 a year per family), higher tax-free mileage rates, paternity pay for the self-employed (up to £194 a week for two weeks), and 1,000 Post Office drop boxes. Healey admits they 'are not going to change the world'.",
-      "tag": "Confirmed",
-      "new": true
+      "tag": "Confirmed"
     },
     {
       "time": "2026-10-28T11:07:00Z",

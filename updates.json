@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T15:45:00Z"
+    "lastUpdated": "2026-10-28T15:53:00Z"
   },
   "measures": [
     {
@@ -319,11 +319,12 @@
       "status": "confirmed",
       "headline": "New 'Founders' Relief' on capital gains",
       "detail": "Founders of successful companies pay a 10% Capital Gains Tax rate on up to £10m of lifetime gains when they sell. There's also more support for women founders: British Business Bank funds for women-led firms double to £200m, and a new scale-up programme.",
-      "impact": "Makes building and selling a UK start-up more rewarding. It mostly benefits entrepreneurs with large exits.",
+      "impact": "Makes building and selling a UK start-up more rewarding. It mostly benefits entrepreneurs with large exits. The IFS is sceptical: its director said she was struggling to see the economic rationale.",
       "who": [
         "business"
       ],
-      "source": "Budget speech"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "capital-allowances",
@@ -427,11 +428,26 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T15:52:00Z",
+      "title": "IFS sceptical about Founders' Relief",
+      "body": "IFS director Helen Miller said the new 10% Founders' Relief 'might be bonkers' and that she was struggling to see an economic rationale for it.",
+      "tag": "Reaction",
+      "measure": "founders-relief",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T15:50:00Z",
+      "title": "Will the £100 actually go on heating?",
+      "body": "Critics point out that because the energy payment goes straight into bank accounts rather than onto bills, there's no guarantee it'll be spent on keeping warm.",
+      "tag": "Reaction",
+      "measure": "energy-payment",
+      "new": true
+    },
+    {
       "time": "2026-10-28T15:42:00Z",
       "title": "How it measures up to what experts asked for",
       "body": "Before the Budget, the Resolution Foundation wanted the buffer rebuilt to at least £20bn and no further fuel duty freeze. Healey went with £15bn and extended the 5p cut. The IFS had warned of a £35bn gap in spending ambitions, and Healey has pushed the big defence spending decision to next year's Spending Review.",
-      "tag": "Analysis",
-      "new": true
+      "tag": "Analysis"
     },
     {
       "time": "2026-10-28T15:20:00Z",

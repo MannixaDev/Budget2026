@@ -19,3 +19,5 @@ Everything on the page comes from `updates.json`. Open readers' browsers re-chec
 **Add or change a measure.** Use `"status"`, which is `confirmed`, `expected` or `dropped`. `"who"` can include `everyone`, `renter`, `homeowner`, `landlord`, `saver`, `pensioner`, `worker`, `parent`, `driver` and `business`.
 
 **Change the header.** Set `meta.status` to `"live"` when the speech starts and to `"post"` when it ends, then update `meta.lastUpdated`.
+
+**Mark the latest items as new.** Add `"new": true` to any update or measure from the latest push, and remove it from the items flagged last time. Those items get a red NEW tag on the page.

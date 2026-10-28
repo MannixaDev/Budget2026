@@ -137,6 +137,12 @@ h2 { font-size: 22px; letter-spacing: -.02em; margin: 40px 0 6px; }
 .badge.confirmed { background: var(--confirmed-soft); color: var(--confirmed); }
 .badge.expected { background: var(--expected-soft); color: var(--expected); }
 .badge.dropped { background: var(--dropped-soft); color: var(--dropped); }
+.newtag {
+  display: inline-block; font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+  background: var(--accent); color: #fff; padding: 2px 7px; border-radius: 999px; vertical-align: 2px; margin-right: 6px;
+}
+.card.flagged { border-color: var(--accent); }
+.badges { display: flex; align-items: center; gap: 6px; }
 .card h3 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
 .card p { margin: 0; font-size: 15px; }
 .impact { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; font-size: 14px; }
@@ -347,10 +353,10 @@ footer { margin: 56px 0 32px; padding-top: 20px; border-top: 1px solid var(--bor
       .sort((a, b) => (order[a.status] ?? 9) - (order[b.status] ?? 9));
 
     $('measures').innerHTML = list.length ? list.map((m) => `
-      <article class="card" id="m-${esc(m.id)}">
+      <article class="card${m.new ? ' flagged' : ''}" id="m-${esc(m.id)}">
         <div class="card-top">
           <span class="cat">${esc(m.category)}</span>
-          <span class="badge ${esc(m.status)}">${esc(STATUS_LABEL[m.status] || m.status)}</span>
+          <span class="badges">${m.new ? '<span class="newtag">New</span>' : ''}<span class="badge ${esc(m.status)}">${esc(STATUS_LABEL[m.status] || m.status)}</span></span>
         </div>
         <h3>${esc(m.headline)}</h3>
         <p>${esc(m.detail)}</p>
@@ -372,7 +378,7 @@ footer { margin: 56px 0 32px; padding-top: 20px; border-top: 1px solid var(--bor
         <li class="entry${breaking ? ' breaking' : ''}${isNew ? ' is-new' : ''}">
           <time datetime="${esc(u.time)}">${fmtTime(u.time)}</time>
           <div class="body">
-            ${u.tag ? `<span class="tag">${esc(u.tag)}</span>` : ''}
+            ${u.new ? '<span class="newtag">New</span>' : ''}${u.tag ? `<span class="tag">${esc(u.tag)}</span>` : ''}
             <h4>${esc(u.title)}</h4>
             ${u.body ? `<p>${esc(u.body)}</p>` : ''}
             ${u.measure ? `<p class="src"><a href="#m-${esc(u.measure)}">See what it means ↓</a></p>` : ''}

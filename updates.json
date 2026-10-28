@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:00:00Z"
+    "lastUpdated": "2026-10-28T13:03:00Z"
   },
   "measures": [
     {
@@ -47,12 +47,13 @@
       "category": "Savings",
       "status": "confirmed",
       "headline": "Cash ISA limit stays at £20,000",
-      "detail": "The previous plan to cut the cash ISA allowance from £20,000 to £12,000 for under-65s, due from April 2027, has been dropped. So has a plan to tax cash held inside Stocks and Shares ISAs.",
+      "detail": "Confirmed in the speech: the plan to cut the cash ISA limit is reversed, so it stays at £20,000 a year tax-free. Healey says 88% of people will pay no more tax on savings. A new 'Starter ISA' for first-time investors is being worked up with the industry.",
       "impact": "Nothing changes. You can still put up to £20,000 a year into ISAs tax-free, all in cash if you like.",
       "who": [
         "saver"
       ],
-      "source": "Treasury, via LBC"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "no-rate-rises",
@@ -224,16 +225,44 @@
       "source": "Budget speech"
     },
     {
-      "id": "bank-surcharge",
+      "id": "capital-allowances",
       "category": "Business",
-      "status": "expected",
-      "headline": "Temporary rise in the bank tax surcharge",
-      "detail": "Banks pay a 3% surcharge on profits on top of 25% corporation tax. Healey is reported to be raising it temporarily, but to below the 8% it stood at until 2023.",
-      "impact": "Raises money from big banks' profits rather than households directly. Banks could pass some of the cost on through savings and loan rates. Bank shares rose on the news because the rise is smaller than feared.",
+      "status": "confirmed",
+      "headline": "Bigger tax break for business investment",
+      "detail": "The first-year allowance on main-rate assets rises from 40% to 50%, while the ongoing writing-down allowance falls from 14% to 12%.",
+      "impact": "Firms can deduct more of the cost of new equipment from their taxable profits in the year they buy it. That rewards investing sooner.",
       "who": [
         "business"
       ],
-      "source": "Bloomberg, via LBC"
+      "source": "Budget speech",
+      "new": true
+    },
+    {
+      "id": "hmrc-crackdown",
+      "category": "Tax",
+      "status": "confirmed",
+      "headline": "HMRC crackdown and tax admin changes",
+      "detail": "HMRC gets more funding and stronger powers to collect overdue tax. Self-assessment administration will be reformed from 2029. The rules change on taxing profits taken out of companies, with genuine deals and business succession protected. There's also a VAT fix for larger taxi firms.",
+      "impact": "Mostly affects people who owe tax, company owners who take money out of their companies, and big taxi operators. Self-assessment filers will see changes from 2029.",
+      "who": [
+        "business",
+        "worker"
+      ],
+      "source": "Budget speech",
+      "new": true
+    },
+    {
+      "id": "bank-surcharge",
+      "category": "Business",
+      "status": "confirmed",
+      "headline": "Banks pay an extra 3% surcharge for 15 months",
+      "detail": "The Bank Surcharge goes up by 3 percentage points, from 3% to 6%, from January for 15 months. The money pays for immediate help with energy bills.",
+      "impact": "Big banks fund this winter's energy support. Some of the cost could filter through to savings and loan rates.",
+      "who": [
+        "business"
+      ],
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "small-business-rates",
@@ -245,8 +274,7 @@
       "who": [
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "small-brewers",
@@ -258,8 +286,7 @@
       "who": [
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "beer-duty",
@@ -289,28 +316,57 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:59:30Z",
+      "title": "Banks pay an extra 3% to fund energy help",
+      "body": "The Bank Surcharge rises by 3 points from January for 15 months, paying for immediate support with energy bills.",
+      "tag": "Confirmed",
+      "measure": "bank-surcharge",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:59:00Z",
+      "title": "Cash ISA stays at £20,000, plus a new 'Starter ISA'",
+      "body": "Healey confirms the cash ISA cut is reversed. A new Starter ISA for first-time investors is on the way.",
+      "tag": "Confirmed",
+      "measure": "cash-isa",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:58:00Z",
+      "title": "Tax break for business investment",
+      "body": "The first-year allowance on business assets rises from 40% to 50%, and the writing-down allowance falls from 14% to 12%.",
+      "tag": "Confirmed",
+      "measure": "capital-allowances",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:57:00Z",
+      "title": "HMRC gets more teeth",
+      "body": "More money and powers for HMRC to chase overdue tax, self-assessment reform from 2029, and new rules on taxing profits taken out of companies.",
+      "tag": "Confirmed",
+      "measure": "hmrc-crackdown",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:55:00Z",
       "title": "£10m relief for small brewers",
       "body": "About 2,000 small brewers and cider makers get £10m in alcohol duty relief.",
       "tag": "Confirmed",
-      "measure": "small-brewers",
-      "new": true
+      "measure": "small-brewers"
     },
     {
       "time": "2026-10-28T12:54:00Z",
       "title": "Business rates scrapped for 70,000 more small firms",
       "body": "The small business rates relief threshold for shops, hospitality and leisure rises from £12,000 to £18,000. Half of shops, restaurants and gyms will now pay no business rates.",
       "tag": "Confirmed",
-      "measure": "small-business-rates",
-      "new": true
+      "measure": "small-business-rates"
     },
     {
       "time": "2026-10-28T12:53:00Z",
       "title": "Paid paternity leave for the self-employed",
       "body": "For the first time, self-employed fathers and partners will be eligible for paid parental leave. Healey calls it a 'downpayment'.",
       "tag": "Confirmed",
-      "measure": "paternity-self-employed",
-      "new": true
+      "measure": "paternity-self-employed"
     },
     {
       "time": "2026-10-28T12:52:30Z",

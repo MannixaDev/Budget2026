@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:03:00Z"
+    "lastUpdated": "2026-10-28T13:06:00Z"
   },
   "measures": [
     {
@@ -52,8 +52,7 @@
       "who": [
         "saver"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "no-rate-rises",
@@ -234,8 +233,7 @@
       "who": [
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "hmrc-crackdown",
@@ -248,8 +246,7 @@
         "business",
         "worker"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "bank-surcharge",
@@ -261,8 +258,7 @@
       "who": [
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "small-business-rates",
@@ -316,36 +312,46 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:03:00Z",
+      "title": "'Buy British' push in government contracts",
+      "body": "Government will do more 'challenge-led' buying so it can be the first customer for innovative firms. A new definition of a UK supplier will favour companies that genuinely invest and create jobs here.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:01:00Z",
+      "title": "£3.5bn of investment announced",
+      "body": "Over £1bn of life sciences investment from Kindeva, Vertex and Convatec, backed by about £70m of public money, supports 1,000+ jobs. Rolls-Royce will develop next-generation turbine engines in the UK, a £2.5bn investment across the Midlands and Bristol.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:59:30Z",
       "title": "Banks pay an extra 3% to fund energy help",
       "body": "The Bank Surcharge rises by 3 points from January for 15 months, paying for immediate support with energy bills.",
       "tag": "Confirmed",
-      "measure": "bank-surcharge",
-      "new": true
+      "measure": "bank-surcharge"
     },
     {
       "time": "2026-10-28T12:59:00Z",
       "title": "Cash ISA stays at £20,000, plus a new 'Starter ISA'",
       "body": "Healey confirms the cash ISA cut is reversed. A new Starter ISA for first-time investors is on the way.",
       "tag": "Confirmed",
-      "measure": "cash-isa",
-      "new": true
+      "measure": "cash-isa"
     },
     {
       "time": "2026-10-28T12:58:00Z",
       "title": "Tax break for business investment",
       "body": "The first-year allowance on business assets rises from 40% to 50%, and the writing-down allowance falls from 14% to 12%.",
       "tag": "Confirmed",
-      "measure": "capital-allowances",
-      "new": true
+      "measure": "capital-allowances"
     },
     {
       "time": "2026-10-28T12:57:00Z",
       "title": "HMRC gets more teeth",
       "body": "More money and powers for HMRC to chase overdue tax, self-assessment reform from 2029, and new rules on taxing profits taken out of companies.",
       "tag": "Confirmed",
-      "measure": "hmrc-crackdown",
-      "new": true
+      "measure": "hmrc-crackdown"
     },
     {
       "time": "2026-10-28T12:55:00Z",

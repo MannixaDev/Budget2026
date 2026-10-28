@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T12:27:00Z"
+    "lastUpdated": "2026-10-28T12:30:00Z"
   },
   "measures": [
     {
@@ -143,8 +143,7 @@
         "worker",
         "parent"
       ],
-      "source": "Government announcement",
-      "new": true
+      "source": "Government announcement"
     },
     {
       "id": "rough-sleeping",
@@ -237,12 +236,18 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:26:00Z",
+      "title": "Borrowing is running above forecast",
+      "body": "The government borrowed £24.5bn last month, more than expected. That takes borrowing so far this financial year to £97.8bn, about £6bn above the OBR's forecast, which leaves Healey little room for giveaways.",
+      "tag": "Analysis",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:20:00Z",
       "title": "Lib Dems: carers' fix is too slow and too harsh",
       "body": "Ed Davey welcomed the end of the Carer's Allowance cliff edge but said it won't take effect for four years. Taking back £1 for every £1 earned amounts to a '100% tax rate' for working carers, he said.",
       "tag": "Reaction",
-      "measure": "carers",
-      "new": true
+      "measure": "carers"
     },
     {
       "time": "2026-10-28T12:11:00Z",

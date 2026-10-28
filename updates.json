@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T12:57:00Z"
+    "lastUpdated": "2026-10-28T13:00:00Z"
   },
   "measures": [
     {
@@ -132,7 +132,7 @@
         "parent",
         "worker"
       ],
-      "source": "Government announcement"
+      "source": "Budget speech"
     },
     {
       "id": "pension-allowance",
@@ -144,8 +144,7 @@
       "who": [
         "pensioner"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "minimum-wage",
@@ -158,8 +157,7 @@
         "worker",
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "carers",
@@ -197,8 +195,7 @@
         "driver",
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "warm-homes",
@@ -241,14 +238,28 @@
     {
       "id": "small-business-rates",
       "category": "Business",
-      "status": "expected",
-      "headline": "Small business rates relief threshold could rise",
-      "detail": "Pre-Budget reports suggest the threshold for small business rates relief may go up from £12,000 to around £17,000.",
-      "impact": "More small shops and premises could pay less or no business rates. Not confirmed yet.",
+      "status": "confirmed",
+      "headline": "70,000 more small firms pay no business rates",
+      "detail": "For retail, hospitality and leisure businesses, the Small Business Rate Relief threshold rises from £12,000 to £18,000.",
+      "impact": "70,000 more shops, cafés, pubs and gyms pay no business rates at all. Half of all shops, restaurants and gyms will now pay none.",
       "who": [
         "business"
       ],
-      "source": "Pre-Budget reporting"
+      "source": "Budget speech",
+      "new": true
+    },
+    {
+      "id": "small-brewers",
+      "category": "Business",
+      "status": "confirmed",
+      "headline": "£10m duty relief for small brewers and cider makers",
+      "detail": "About 2,000 small British brewers and cider makers get £10m of alcohol duty relief.",
+      "impact": "Helps small independent producers, and may soften the effect of the general alcohol duty rise.",
+      "who": [
+        "business"
+      ],
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "beer-duty",
@@ -278,36 +289,56 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:55:00Z",
+      "title": "£10m relief for small brewers",
+      "body": "About 2,000 small brewers and cider makers get £10m in alcohol duty relief.",
+      "tag": "Confirmed",
+      "measure": "small-brewers",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:54:00Z",
+      "title": "Business rates scrapped for 70,000 more small firms",
+      "body": "The small business rates relief threshold for shops, hospitality and leisure rises from £12,000 to £18,000. Half of shops, restaurants and gyms will now pay no business rates.",
+      "tag": "Confirmed",
+      "measure": "small-business-rates",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:53:00Z",
+      "title": "Paid paternity leave for the self-employed",
+      "body": "For the first time, self-employed fathers and partners will be eligible for paid parental leave. Healey calls it a 'downpayment'.",
+      "tag": "Confirmed",
+      "measure": "paternity-self-employed",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:52:30Z",
       "title": "Minimum wage up 3.9%",
       "body": "The National Minimum Wage and National Living Wage both rise by 3.9%, covering 2.3 million low-paid workers.",
       "tag": "Confirmed",
-      "measure": "minimum-wage",
-      "new": true
+      "measure": "minimum-wage"
     },
     {
       "time": "2026-10-28T12:52:00Z",
       "title": "No income tax for pensioners on the State Pension",
       "body": "A new Pension Tax Allowance means pensioners with income up to the full new State Pension won't pay income tax this Parliament. Ex-miners get the full pension fund surplus.",
       "tag": "Confirmed",
-      "measure": "pension-allowance",
-      "new": true
+      "measure": "pension-allowance"
     },
     {
       "time": "2026-10-28T12:51:30Z",
       "title": "Fuel duty cut extended to July",
       "body": "The 5p fuel duty cut and the low red diesel rate are extended to July because of high fuel prices. The higher mileage rate goes from 25p to 35p a mile.",
       "tag": "Confirmed",
-      "measure": "fuel-duty",
-      "new": true
+      "measure": "fuel-duty"
     },
     {
       "time": "2026-10-28T12:51:00Z",
       "title": "Tariffs suspended on 100+ supermarket items",
       "body": "Confirmed in the speech, to help keep the weekly shop down.",
       "tag": "Confirmed",
-      "measure": "food-tariffs",
-      "new": true
+      "measure": "food-tariffs"
     },
     {
       "time": "2026-10-28T12:50:00Z",

@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T12:12:00Z"
+    "lastUpdated": "2026-10-28T12:27:00Z"
   },
   "measures": [
     {
@@ -138,12 +138,13 @@
       "status": "confirmed",
       "headline": "Carer's Allowance 'cliff edge' replaced with a taper",
       "detail": "Instead of losing all of Carer's Allowance for earning £1 over the weekly limit, carers will lose £1 of support for every £1 they earn above it.",
-      "impact": "Carers can take on a few extra hours of paid work without suddenly losing the whole allowance.",
+      "impact": "Carers can take on a few extra hours of paid work without suddenly losing the whole allowance. But the Lib Dems say it won't start for four years, and losing £1 for every £1 earned is effectively a 100% tax on those extra earnings.",
       "who": [
         "worker",
         "parent"
       ],
-      "source": "Government announcement"
+      "source": "Government announcement",
+      "new": true
     },
     {
       "id": "rough-sleeping",
@@ -236,11 +237,18 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:20:00Z",
+      "title": "Lib Dems: carers' fix is too slow and too harsh",
+      "body": "Ed Davey welcomed the end of the Carer's Allowance cliff edge but said it won't take effect for four years. Taking back £1 for every £1 earned amounts to a '100% tax rate' for working carers, he said.",
+      "tag": "Reaction",
+      "measure": "carers",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:11:00Z",
       "title": "PMQs underway before the Budget",
       "body": "Andy Burnham opened Prime Minister's Questions at 12:04. Kemi Badenoch pressed him on the EU, and Burnham said there's 'no confusion': Labour's red lines, including no return to free movement, stay for this Parliament. The Budget speech follows straight after.",
-      "tag": "Latest",
-      "new": true
+      "tag": "Latest"
     },
     {
       "time": "2026-10-28T11:26:00Z",

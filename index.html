@@ -189,6 +189,12 @@ h2 { font-size: 22px; letter-spacing: -.02em; margin: 40px 0 6px; }
 .watch .inner { padding: 0 18px 16px; }
 .player { position: relative; aspect-ratio: 16 / 9; background: #000; border-radius: 10px; overflow: hidden; }
 .player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.player .watchlink {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  color: #fff; font-weight: 700; font-size: 18px; text-decoration: none;
+  background: radial-gradient(circle at center, #2a2f38, #000);
+}
+.player .watchlink:hover { text-decoration: underline; }
 .watch .links { margin-top: 10px; font-size: 14px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 16px; }
 .watch .links a { color: var(--text); }
 
@@ -440,9 +446,13 @@ footer { margin: 56px 0 32px; padding-top: 20px; border-top: 1px solid var(--bor
   function renderWatch() {
     const s = data.meta.stream;
     const w = $('watch');
-    w.hidden = !s?.embed;
-    if (!s?.embed) return;
+    w.hidden = !s;
+    if (!s) return;
     if (s.page) $('watchPage').href = s.page;
+    // No embeddable player: show a big link to the stream instead.
+    if (!s.embed && !$('player').firstChild) {
+      $('player').innerHTML = `<a class="watchlink" href="${esc(s.page || 'https://parliamentlive.tv/Commons')}" target="_blank" rel="noopener">▶&nbsp; Watch on Parliament Live TV ↗</a>`;
+    }
     const p = phase();
     $('watchPill').classList.toggle('live', p === 'live');
     $('watchPillText').textContent = p === 'live' ? 'Live now' : p === 'post' ? 'Replay' : 'Commons';
@@ -459,7 +469,7 @@ footer { margin: 56px 0 32px; padding-top: 20px; border-top: 1px solid var(--bor
       f.allowFullscreen = true;
       f.allow = 'autoplay; fullscreen';
       player.appendChild(f);
-    } else if (!w.open) {
+    } else if (!w.open && data?.meta?.stream?.embed) {
       player.replaceChildren(); // stop playback when collapsed
     }
   });

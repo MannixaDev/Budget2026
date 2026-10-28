@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T12:36:00Z"
+    "lastUpdated": "2026-10-28T12:39:00Z"
   },
   "measures": [
     {
@@ -236,25 +236,29 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:35:00Z",
+      "title": "Tribute to Reeves, and a Gogglebox joke",
+      "body": "Healey praised Rachel Reeves, Britain's first female Chancellor, for fiscal discipline and cutting NHS waiting lists. He joked that he'd hoped to be the most-watched minister this week, until the PM turned up on Gogglebox.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:34:00Z",
       "title": "Three priorities: costs, business, and public services",
       "body": "Healey's priorities are 'breathing space' on household and business costs, backing British firms to grow, and action on energy, national security, public services and housing. He says the Budget offers 'fresh hope' and ties it to a 10-Year Plan and next year's Spending Review.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T12:33:00Z",
       "title": "'A Budget for the working people of Britain'",
       "body": "Healey opens by calling this a Budget for working people and businesses of all sizes, built on fiscal discipline.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T12:32:00Z",
       "title": "Healey is on his feet",
       "body": "The Chancellor has stood up at the dispatch box to begin his first Budget speech.",
-      "tag": "Breaking",
-      "new": true
+      "tag": "Breaking"
     },
     {
       "time": "2026-10-28T12:26:00Z",

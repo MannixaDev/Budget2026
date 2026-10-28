@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:18:00Z"
+    "lastUpdated": "2026-10-28T13:21:00Z"
   },
   "measures": [
     {
@@ -182,6 +182,18 @@
       "who": [
         "everyone",
         "business"
+      ],
+      "source": "Budget speech"
+    },
+    {
+      "id": "defence",
+      "category": "Defence",
+      "status": "confirmed",
+      "headline": "Defence spending to hit 3% of GDP by 2030",
+      "detail": "The Defence Investment Plan is fully funded, taking defence spending to 3% of national income by 2030. The OBR estimates that needs an extra £17.3bn in 2029/30.",
+      "impact": "A big long-term spending commitment. It's part of why there's little room for tax cuts elsewhere.",
+      "who": [
+        "everyone"
       ],
       "source": "Budget speech",
       "new": true
@@ -366,26 +378,45 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:17:00Z",
+      "title": "£100m Local Apprenticeship Service",
+      "body": "Funded from savings on welfare fraud and error, as part of cutting duplication between central and local government.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:16:30Z",
+      "title": "Defence to reach 3% of GDP by 2030",
+      "body": "Healey fully funds the Defence Investment Plan. The OBR says hitting 3% needs an extra £17.3bn in 2029/30.",
+      "tag": "Confirmed",
+      "measure": "defence",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:16:00Z",
+      "title": "AI to save £600m in Whitehall",
+      "body": "AI in the civil service is expected to save £600m in back-office costs. There's also a review of NHS productivity and AI to free staff from admin.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:15:00Z",
       "title": "New Misogyny Prevention Fund",
       "body": "Healey says work to halve violence against women and girls will speed up, with a new fund run in partnership with the private sector.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T13:14:00Z",
       "title": "'Labour is the party of public services'",
       "body": "Healey says day-to-day spending is up more than £40bn a year since 2024, with £37bn more for health next year than in the Conservatives' last year.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T13:13:00Z",
       "title": "Tourist tax powers and tax devolution for mayors",
       "body": "Mayors can introduce an overnight visitor levy. They'll get 20% of business rates from next year and a share of income tax from 2028, with 100% of business rates kept locally by 2030. Healey calls it 'the most radical act of decentralisation in a generation'.",
       "tag": "Confirmed",
-      "measure": "tourist-tax",
-      "new": true
+      "measure": "tourist-tax"
     },
     {
       "time": "2026-10-28T13:11:00Z",

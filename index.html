@@ -175,6 +175,23 @@ h2 { font-size: 22px; letter-spacing: -.02em; margin: 40px 0 6px; }
 }
 .newbar.show { display: block; }
 
+/* Watch live */
+.watch { margin-top: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+.watch summary {
+  list-style: none; cursor: pointer; padding: 14px 18px; display: flex; align-items: center; gap: 10px;
+  font-weight: 700;
+}
+.watch summary::-webkit-details-marker { display: none; }
+.watch summary .hint { margin-left: auto; font-weight: 500; font-size: 14px; color: var(--muted); }
+.watch summary .chev { transition: transform .2s; color: var(--muted); }
+.watch[open] summary .chev { transform: rotate(180deg); }
+.watch summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 12px; }
+.watch .inner { padding: 0 18px 16px; }
+.player { position: relative; aspect-ratio: 16 / 9; background: #000; border-radius: 10px; overflow: hidden; }
+.player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.watch .links { margin-top: 10px; font-size: 14px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.watch .links a { color: var(--text); }
+
 .layout { display: grid; grid-template-columns: 1fr; gap: 0 32px; }
 @media (min-width: 900px) {
   .layout { grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); }
@@ -237,6 +254,23 @@ footer { margin: 56px 0 32px; padding-top: 20px; border-top: 1px solid var(--bor
       <div class="stat e"><b id="nExpected">0</b><span>Expected / rumoured</span></div>
       <div class="stat"><b id="nUpdates">0</b><span>Live updates</span></div>
     </div>
+
+    <details class="watch" id="watch" hidden>
+      <summary>
+        <span class="pill" id="watchPill"><span class="dot"></span><span id="watchPillText">Commons</span></span>
+        <span id="watchTitle">Watch the Commons live</span>
+        <span class="hint" id="watchHint">Show player</span>
+        <span class="chev" aria-hidden="true">▾</span>
+      </summary>
+      <div class="inner">
+        <div class="player" id="player"></div>
+        <div class="links">
+          <a id="watchPage" href="https://parliamentlive.tv/Commons" target="_blank" rel="noopener">Open on Parliament Live TV ↗</a>
+          <a href="https://www.bbc.co.uk/iplayer/live/bbcparliament" target="_blank" rel="noopener">BBC Parliament on iPlayer ↗</a>
+          <a href="https://news.sky.com/watch-live" target="_blank" rel="noopener">Sky News live ↗</a>
+        </div>
+      </div>
+    </details>
   </section>
 
   <div class="layout">
@@ -398,8 +432,37 @@ footer { margin: 56px 0 32px; padding-top: 20px; border-top: 1px solid var(--bor
     $('nConfirmed').textContent = data.measures.filter((x) => x.status === 'confirmed').length;
     $('nExpected').textContent = data.measures.filter((x) => x.status === 'expected').length;
     $('nUpdates').textContent = data.updates.length;
+    renderWatch();
     tick();
   }
+
+  // Collapsed by default; the iframe is only created when someone opens it.
+  function renderWatch() {
+    const s = data.meta.stream;
+    const w = $('watch');
+    w.hidden = !s?.embed;
+    if (!s?.embed) return;
+    if (s.page) $('watchPage').href = s.page;
+    const p = phase();
+    $('watchPill').classList.toggle('live', p === 'live');
+    $('watchPillText').textContent = p === 'live' ? 'Live now' : p === 'post' ? 'Replay' : 'Commons';
+    $('watchTitle').textContent = p === 'post' ? 'Watch the Budget speech again' : 'Watch the Budget speech live';
+  }
+  $('watch').addEventListener('toggle', (e) => {
+    const w = e.target;
+    $('watchHint').textContent = w.open ? 'Hide player' : 'Show player';
+    const player = $('player');
+    if (w.open && !player.firstChild && data?.meta?.stream?.embed) {
+      const f = document.createElement('iframe');
+      f.src = data.meta.stream.embed;
+      f.title = 'UK Parliament live video: House of Commons';
+      f.allowFullscreen = true;
+      f.allow = 'autoplay; fullscreen';
+      player.appendChild(f);
+    } else if (!w.open) {
+      player.replaceChildren(); // stop playback when collapsed
+    }
+  });
 
   // Phase: "pre" (countdown), "live" (speech underway), "post" (done). Falls back to the clock if unset.
   function phase() {

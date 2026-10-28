@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:27:00Z"
+    "lastUpdated": "2026-10-28T13:30:00Z"
   },
   "measures": [
     {
@@ -195,8 +195,7 @@
       "who": [
         "everyone"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "welfare-reform",
@@ -212,16 +211,44 @@
       "source": "Budget speech"
     },
     {
+      "id": "first-time-buyers",
+      "category": "Housing",
+      "status": "confirmed",
+      "headline": "First Time Buyer ISA replaces the Lifetime ISA",
+      "detail": "A new First Time Buyer ISA replaces the Lifetime ISA. From today, the LISA penalty is fixed so buyers whose home costs more than the price limit get back at least what they paid in. From next spring, a new equity loan scheme, 'Your First Home', is backed by £4.7bn of government lending.",
+      "impact": "If you're saving for a first home in a LISA, you'll no longer lose money if prices push you over the cap. A new Help to Buy-style loan arrives next spring.",
+      "who": [
+        "renter",
+        "saver"
+      ],
+      "source": "Budget speech",
+      "new": true
+    },
+    {
+      "id": "council-housing",
+      "category": "Housing",
+      "status": "confirmed",
+      "headline": "£1.5bn more for social and council housing",
+      "detail": "There's an extra £1.5bn for the Social and Affordable Housing Programme, taking total backing for council housing to £40bn. Cheaper borrowing for councils is extended, land sold to social housing providers will be VAT-free, and biodiversity rules are removed for more brownfield sites.",
+      "impact": "More council and social homes, faster, especially on brownfield land.",
+      "who": [
+        "renter"
+      ],
+      "source": "Budget speech",
+      "new": true
+    },
+    {
       "id": "rough-sleeping",
       "category": "Housing",
-      "status": "expected",
-      "headline": "Extra £432m to tackle rough sleeping",
-      "detail": "Funding for rough sleeping support is expected to double, including £432m aimed at getting people off the streets before Christmas.",
-      "impact": "More emergency accommodation and support services this winter.",
+      "status": "confirmed",
+      "headline": "£430m to keep rough sleeper support going every winter",
+      "detail": "A further £430m keeps the offer to rough sleepers open for the rest of this Parliament, every winter and not just this one.",
+      "impact": "More emergency accommodation and support for people sleeping rough, guaranteed for several years.",
       "who": [
         "everyone"
       ],
-      "source": "Pre-Budget reporting"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "fuel-duty",
@@ -391,20 +418,42 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:27:00Z",
+      "title": "Lifetime ISA replaced, new 'Your First Home' loans",
+      "body": "A First Time Buyer ISA replaces the Lifetime ISA, and the LISA penalty is fixed from today. A £4.7bn equity loan scheme, 'Your First Home', starts next spring.",
+      "tag": "Confirmed",
+      "measure": "first-time-buyers",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:26:00Z",
+      "title": "Council housing boost",
+      "body": "An extra £1.5bn for social and affordable homes, taking the total to £40bn. Cheaper council borrowing, VAT-free land sales to social landlords, and fewer biodiversity rules on brownfield sites.",
+      "tag": "Confirmed",
+      "measure": "council-housing",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:24:00Z",
+      "title": "£430m for rough sleeping, every winter",
+      "body": "Healey commits a further £430m to keep the rough sleeping offer open for the rest of the Parliament.",
+      "tag": "Confirmed",
+      "measure": "rough-sleeping",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:23:00Z",
       "title": "Up to £5bn to back defence firms",
       "body": "There will be a new Innovative Defence Finance Taskforce and treaty talks with Finland, Poland and the Netherlands on joint defence funding. The National Wealth Fund and British Business Bank will put up to £5bn into defence over four years.",
       "tag": "Speech",
-      "measure": "defence",
-      "new": true
+      "measure": "defence"
     },
     {
       "time": "2026-10-28T13:22:00Z",
       "title": "Plan for NATO's 3.5% target coming next year",
       "body": "Healey says the defence budget is £14bn higher than in the Conservatives' last year. Next year's Spending Review will show how the UK reaches NATO's 3.5% of GDP by 2035. Earlier, a Tory MP was rebuked by the Deputy Speaker for interrupting.",
       "tag": "Speech",
-      "measure": "defence",
-      "new": true
+      "measure": "defence"
     },
     {
       "time": "2026-10-28T13:20:00Z",

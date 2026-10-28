@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:45:00Z"
+    "lastUpdated": "2026-10-28T13:48:00Z"
   },
   "measures": [
     {
@@ -415,18 +415,30 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:41:00Z",
+      "title": "Badenoch: 'a hospital pass'",
+      "body": "The Conservative leader compares Healey's inheritance to a rugby 'hospital pass' and says you can't have social security without national security.",
+      "tag": "Reaction",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:40:00Z",
+      "title": "Badenoch: 'Is that it?'",
+      "body": "Kemi Badenoch says most people will ask 'is that it?', calling it the same story of more borrowing, more taxes and more benefit spending.",
+      "tag": "Reaction",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:38:00Z",
       "title": "Lib Dems: rural households left out",
       "body": "Tim Farron welcomed the energy help and the paternity pay for the self-employed, but said off-grid homes on heating oil get no cap and the rural fuel duty scheme isn't extended. He added that the Budget gives few clues on how it's paid for.",
-      "tag": "Reaction",
-      "new": true
+      "tag": "Reaction"
     },
     {
       "time": "2026-10-28T13:37:00Z",
       "title": "'Breathing space': 13 mentions",
       "body": "Healey used his catchphrase 13 times in the hour-long speech, on energy payments, brewers' relief and his decision to hold an early Budget.",
-      "tag": "Analysis",
-      "new": true
+      "tag": "Analysis"
     },
     {
       "time": "2026-10-28T13:35:00Z",

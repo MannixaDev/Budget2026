@@ -9,9 +9,25 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T12:51:00Z"
+    "lastUpdated": "2026-10-28T12:54:00Z"
   },
   "measures": [
+    {
+      "id": "energy-payment",
+      "category": "Energy",
+      "status": "confirmed",
+      "headline": "£100 Household Energy Payment this winter",
+      "detail": "About 20 million households in council tax bands A to D will get £100 paid straight into their bank accounts this winter. It costs £2.6bn. Scotland, Wales and Northern Ireland get funding and are being urged to pass it on.",
+      "impact": "If your home is in council tax band A, B, C or D in England, expect £100 towards energy bills over winter. Elsewhere in the UK, it depends on your devolved government.",
+      "who": [
+        "everyone",
+        "renter",
+        "homeowner",
+        "pensioner"
+      ],
+      "source": "Budget speech",
+      "new": true
+    },
     {
       "id": "gas-standing-charge",
       "category": "Energy",
@@ -25,8 +41,7 @@
         "homeowner",
         "pensioner"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "cash-isa",
@@ -79,8 +94,7 @@
         "homeowner",
         "pensioner"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "mileage",
@@ -196,8 +210,7 @@
       "who": [
         "business"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "bank-surcharge",
@@ -251,27 +264,32 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:50:00Z",
+      "title": "£100 energy payment for 20 million homes",
+      "body": "Households in council tax bands A–D get £100 paid directly into their bank accounts this winter to help with energy bills, at a cost of £2.6bn.",
+      "tag": "Breaking",
+      "measure": "energy-payment",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:49:00Z",
       "title": "Confirmed: gas standing charges scrapped",
       "body": "Healey confirmed Ofgem will remove gas standing charges, which cost over £100 a year whatever you use, from next year. Electricity is to follow.",
       "tag": "Confirmed",
-      "measure": "gas-standing-charge",
-      "new": true
+      "measure": "gas-standing-charge"
     },
     {
       "time": "2026-10-28T12:48:00Z",
       "title": "Electricity VAT cut extended, worth £50",
       "body": "The VAT cut on electricity is extended through winter and spring to July, taking about £50 off the annual price cap. Around 10,000 businesses get 25% off electricity from April.",
       "tag": "Confirmed",
-      "measure": "electricity-vat",
-      "new": true
+      "measure": "electricity-vat"
     },
     {
       "time": "2026-10-28T12:47:00Z",
       "title": "Energy shake-up to cut bills",
       "body": "New clean power projects will only go ahead if they lower bills. More existing renewables move onto fixed-price contracts to shield bills from gas prices, and grid connections get faster through GB Grid.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T12:46:00Z",

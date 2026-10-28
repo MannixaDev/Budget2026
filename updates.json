@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:06:00Z"
+    "lastUpdated": "2026-10-28T13:09:00Z"
   },
   "measures": [
     {
@@ -212,6 +212,21 @@
       "source": "Pre-Budget reporting, via LBC"
     },
     {
+      "id": "hydrogen-levy",
+      "category": "Energy",
+      "status": "dropped",
+      "headline": "Planned hydrogen levy on gas bills scrapped",
+      "detail": "The planned Gas Shipper Obligation, a levy to fund hydrogen projects, is dropped. The government will fund those projects directly instead.",
+      "impact": "One less cost added to household gas bills. Taxpayers pick it up instead.",
+      "who": [
+        "everyone",
+        "renter",
+        "homeowner"
+      ],
+      "source": "Budget speech",
+      "new": true
+    },
+    {
       "id": "industry-energy",
       "category": "Business",
       "status": "confirmed",
@@ -312,18 +327,38 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:05:00Z",
+      "title": "'British Data Centre Covenant'",
+      "body": "Sensitive data such as NHS records will stay in UK data centres. In return for investing locally, creating jobs and protecting water supplies, data centres get faster grid connections.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:04:30Z",
+      "title": "£640m for AI",
+      "body": "An extra £500m goes to AI safety and security, and £140m to the Sovereign AI Unit to invest in British AI firms.",
+      "tag": "Speech",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:04:00Z",
+      "title": "Hydrogen levy on gas bills dropped",
+      "body": "The planned levy to fund hydrogen through gas bills is scrapped. The government will fund it directly.",
+      "tag": "Dropped",
+      "measure": "hydrogen-levy",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:03:00Z",
       "title": "'Buy British' push in government contracts",
       "body": "Government will do more 'challenge-led' buying so it can be the first customer for innovative firms. A new definition of a UK supplier will favour companies that genuinely invest and create jobs here.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T13:01:00Z",
       "title": "£3.5bn of investment announced",
       "body": "Over £1bn of life sciences investment from Kindeva, Vertex and Convatec, backed by about £70m of public money, supports 1,000+ jobs. Rolls-Royce will develop next-generation turbine engines in the UK, a £2.5bn investment across the Midlands and Bristol.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T12:59:30Z",

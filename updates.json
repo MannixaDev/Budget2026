@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:09:00Z"
+    "lastUpdated": "2026-10-28T13:12:00Z"
   },
   "measures": [
     {
@@ -223,8 +223,7 @@
         "renter",
         "homeowner"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "industry-energy",
@@ -237,6 +236,33 @@
         "business"
       ],
       "source": "Budget speech"
+    },
+    {
+      "id": "trading-allowance",
+      "category": "Work",
+      "status": "confirmed",
+      "headline": "Tax-free side-hustle allowance tripled to £3,000",
+      "detail": "The trading allowance, the amount you can earn from self-employment or side hustles tax-free, triples from £1,000 to £3,000. A new Young Entrepreneurs Allowance will cover a year of living costs for young founders.",
+      "impact": "You can earn up to £3,000 a year from selling things, freelancing or a small side business without paying tax on it or having to file for it.",
+      "who": [
+        "worker",
+        "business"
+      ],
+      "source": "Budget speech",
+      "new": true
+    },
+    {
+      "id": "founders-relief",
+      "category": "Business",
+      "status": "confirmed",
+      "headline": "New 'Founders' Relief' on capital gains",
+      "detail": "Founders of successful companies pay a 10% Capital Gains Tax rate on up to £10m of lifetime gains when they sell. There's also more support for women founders: British Business Bank funds for women-led firms double to £200m, and a new scale-up programme.",
+      "impact": "Makes building and selling a UK start-up more rewarding. It mostly benefits entrepreneurs with large exits.",
+      "who": [
+        "business"
+      ],
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "capital-allowances",
@@ -255,13 +281,15 @@
       "category": "Tax",
       "status": "confirmed",
       "headline": "HMRC crackdown and tax admin changes",
-      "detail": "HMRC gets more funding and stronger powers to collect overdue tax. Self-assessment administration will be reformed from 2029. The rules change on taxing profits taken out of companies, with genuine deals and business succession protected. There's also a VAT fix for larger taxi firms.",
-      "impact": "Mostly affects people who owe tax, company owners who take money out of their companies, and big taxi operators. Self-assessment filers will see changes from 2029.",
+      "detail": "HMRC gets more funding and stronger powers to collect overdue tax. From 2029, self-assessed income tax will be paid in smaller, more regular payments instead of big lump sums. The rules change on taxing profits taken out of companies, with genuine deals and family business succession protected. There's also a VAT fix for larger taxi firms.",
+      "impact": "Self-employed people and landlords filing self-assessment will pay little and often from 2029 instead of facing big January bills. Company owners and big taxi operators face tighter rules.",
       "who": [
         "business",
-        "worker"
+        "worker",
+        "landlord"
       ],
-      "source": "Budget speech"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "bank-surcharge",
@@ -327,26 +355,47 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:08:00Z",
+      "title": "10% 'Founders' Relief' on up to £10m",
+      "body": "A new Capital Gains Tax relief lets founders of successful firms pay 10% on up to £10m of lifetime gains.",
+      "tag": "Confirmed",
+      "measure": "founders-relief",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:07:30Z",
+      "title": "Side-hustle allowance tripled to £3,000",
+      "body": "The tax-free trading allowance goes from £1,000 to £3,000. There's a Young Entrepreneurs Allowance covering a year's living costs, £200m for women-led businesses, and visa and non-compete reforms so staff can move between start-ups more easily.",
+      "tag": "Confirmed",
+      "measure": "trading-allowance",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:07:00Z",
+      "title": "Self-assessment: pay little and often",
+      "body": "From 2029, self-assessed income tax will be collected in smaller, regular payments instead of big bills.",
+      "tag": "Confirmed",
+      "measure": "hmrc-crackdown",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:05:00Z",
       "title": "'British Data Centre Covenant'",
       "body": "Sensitive data such as NHS records will stay in UK data centres. In return for investing locally, creating jobs and protecting water supplies, data centres get faster grid connections.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T13:04:30Z",
       "title": "£640m for AI",
       "body": "An extra £500m goes to AI safety and security, and £140m to the Sovereign AI Unit to invest in British AI firms.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T13:04:00Z",
       "title": "Hydrogen levy on gas bills dropped",
       "body": "The planned levy to fund hydrogen through gas bills is scrapped. The government will fund it directly.",
       "tag": "Dropped",
-      "measure": "hydrogen-levy",
-      "new": true
+      "measure": "hydrogen-levy"
     },
     {
       "time": "2026-10-28T13:03:00Z",

@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T14:42:00Z"
+    "lastUpdated": "2026-10-28T15:02:00Z"
   },
   "measures": [
     {
@@ -70,15 +70,16 @@
     {
       "id": "personal-allowance",
       "category": "Tax",
-      "status": "expected",
-      "headline": "Will the tax-free allowance finally rise?",
-      "detail": "The £12,570 personal allowance has been frozen since April 2021. A higher allowance has been floated as a key promise, but no figure or funding has been confirmed.",
-      "impact": "If it rises, everyone earning over £12,570 would take home a little more. If it stays frozen, more of your pay rise gets taxed (this is called fiscal drag). Not mentioned in the speech. We're checking the full Budget documents.",
+      "status": "dropped",
+      "headline": "No rise in the £12,570 tax-free allowance announced",
+      "detail": "Despite calls to end the freeze, the speech made no change to the personal allowance. It stays at £12,570, frozen since 2021 and currently set to stay there until 2031. The IFS estimated unfreezing it would cost around £6.7bn to £8.4bn a year. The only change is for pensioners living on the State Pension alone, who won't pay income tax.",
+      "impact": "As wages rise, more of your pay keeps getting taxed (fiscal drag). We'll confirm against the full Budget documents when they're published.",
       "who": [
         "worker",
         "pensioner"
       ],
-      "source": "Pre-Budget reporting"
+      "source": "Budget speech and LBC round-up",
+      "new": true
     },
     {
       "id": "electricity-vat",
@@ -427,11 +428,26 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T14:58:00Z",
+      "title": "Tax-free allowance stays frozen",
+      "body": "No rise in the £12,570 personal allowance was announced, so the freeze, in place since 2021 and due to last until 2031, continues. The IFS had put the cost of unfreezing it at £6.7bn–£8.4bn a year.",
+      "tag": "Analysis",
+      "measure": "personal-allowance",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T14:55:00Z",
+      "title": "'Wasting another year' on defence, says Lib Dem MP",
+      "body": "Mike Martin, who chairs the cross-party rearmament group, says putting off a decision on reaching 3.5% leaves Britain 'sleepwalking into a conflict with Russia'.",
+      "tag": "Reaction",
+      "measure": "defence",
+      "new": true
+    },
+    {
       "time": "2026-10-28T14:37:00Z",
       "title": "Motor industry: nothing for mechanics' skills",
       "body": "The Institute of the Motor Industry says the Budget does nothing meaningful about workforce shortages in vehicle repair. Small firms, which make up over 95% of the sector, need help to take on apprentices.",
-      "tag": "Reaction",
-      "new": true
+      "tag": "Reaction"
     },
     {
       "time": "2026-10-28T14:22:00Z",

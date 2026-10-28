@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T14:25:00Z"
+    "lastUpdated": "2026-10-28T14:42:00Z"
   },
   "measures": [
     {
@@ -25,8 +25,7 @@
         "homeowner",
         "pensioner"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "gas-standing-charge",
@@ -428,19 +427,24 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T14:37:00Z",
+      "title": "Motor industry: nothing for mechanics' skills",
+      "body": "The Institute of the Motor Industry says the Budget does nothing meaningful about workforce shortages in vehicle repair. Small firms, which make up over 95% of the sector, need help to take on apprentices.",
+      "tag": "Reaction",
+      "new": true
+    },
+    {
       "time": "2026-10-28T14:22:00Z",
       "title": "£100 payment will 'barely dent' January's rise, say campaigners",
       "body": "The typical bill under the price cap is £1,723 after October's 3.6% rise, and another rise of around 22% is forecast for January. The End Fuel Poverty Coalition says Healey 'talked the talk' but didn't deliver. Citizens Advice warns of another difficult winter.",
       "tag": "Reaction",
-      "measure": "energy-payment",
-      "new": true
+      "measure": "energy-payment"
     },
     {
       "time": "2026-10-28T14:17:00Z",
       "title": "Markets eye a tougher 2027",
       "body": "With growth forecast at just 1% next year and inflation still high, CMC Markets says the smaller £15bn buffer matters more, and investors fear a difficult year ahead.",
-      "tag": "Reaction",
-      "new": true
+      "tag": "Reaction"
     },
     {
       "time": "2026-10-28T14:04:00Z",

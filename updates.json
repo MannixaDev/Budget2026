@@ -4,12 +4,12 @@
     "chancellor": "John Healey",
     "speechStart": "2026-10-28T12:30:00Z",
     "status": "post",
-    "statusNote": "The speech is over. Kemi Badenoch is replying for the Conservatives, and the OBR's press conference on the forecasts is at 14:30. The full Budget documents are on GOV.UK.",
+    "statusNote": "The speech is over. The OBR has published its forecasts, and its press conference is at 14:30. We're working through the full Budget documents.",
     "stream": {
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T14:05:00Z"
+    "lastUpdated": "2026-10-28T14:15:00Z"
   },
   "measures": [
     {
@@ -78,8 +78,7 @@
         "worker",
         "pensioner"
       ],
-      "source": "Pre-Budget reporting",
-      "new": true
+      "source": "Pre-Budget reporting"
     },
     {
       "id": "electricity-vat",
@@ -273,8 +272,7 @@
         "homeowner",
         "pensioner"
       ],
-      "source": "Pre-Budget reporting, via LBC",
-      "new": true
+      "source": "Pre-Budget reporting, via LBC"
     },
     {
       "id": "hydrogen-levy",
@@ -349,8 +347,7 @@
       "who": [
         "business"
       ],
-      "source": "Budget round-up, via LBC",
-      "new": true
+      "source": "Budget round-up, via LBC"
     },
     {
       "id": "hmrc-crackdown",
@@ -412,8 +409,7 @@
       "who": [
         "everyone"
       ],
-      "source": "Pre-Budget reporting, via LBC",
-      "new": true
+      "source": "Pre-Budget reporting, via LBC"
     },
     {
       "id": "rental-profits",
@@ -426,40 +422,42 @@
         "landlord",
         "renter"
       ],
-      "source": "Pre-Budget reporting",
-      "new": true
+      "source": "Pre-Budget reporting"
     }
   ],
   "updates": [
+    {
+      "time": "2026-10-28T14:04:00Z",
+      "title": "OBR: borrowing revised up by nearly £18bn",
+      "body": "The OBR now expects borrowing of £133.2bn this year (2026/27), up from £115.5bn in March, and higher in every year to 2030/31. It blames higher debt interest, the Budget's own policies, and more spending on welfare and public sector pensions.",
+      "tag": "Forecast",
+      "new": true
+    },
     {
       "time": "2026-10-28T14:01:00Z",
       "title": "Experts split on the bank tax",
       "body": "Wealth Club's Susannah Streeter says doubling the bank surcharge from 3% to 6% for 15 months 'sends precisely the wrong message' and adds uncertainty.",
       "tag": "Reaction",
-      "measure": "bank-surcharge",
-      "new": true
+      "measure": "bank-surcharge"
     },
     {
       "time": "2026-10-28T13:50:00Z",
       "title": "Badenoch: inflation 'eating away' at living standards",
       "body": "The Tory leader says it's still easier to live on benefits than to work, and that the Budget does nothing on youth unemployment.",
-      "tag": "Reaction",
-      "new": true
+      "tag": "Reaction"
     },
     {
       "time": "2026-10-28T13:44:00Z",
       "title": "Gambling duties and online sellers",
       "body": "The round-up confirms higher gambling duties and new sales tax rules for online sellers and large taxi firms, alongside the bank surcharge.",
       "tag": "Confirmed",
-      "measure": "gambling-online",
-      "new": true
+      "measure": "gambling-online"
     },
     {
       "time": "2026-10-28T13:42:00Z",
       "title": "A 56-minute speech",
       "body": "Shorter than Rachel Reeves' last two Budgets, which ran 77 and 64 minutes.",
-      "tag": "Analysis",
-      "new": true
+      "tag": "Analysis"
     },
     {
       "time": "2026-10-28T13:41:00Z",

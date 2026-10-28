@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T13:24:00Z"
+    "lastUpdated": "2026-10-28T13:27:00Z"
   },
   "measures": [
     {
@@ -190,12 +190,13 @@
       "category": "Defence",
       "status": "confirmed",
       "headline": "Defence spending to hit 3% of GDP by 2030",
-      "detail": "The Defence Investment Plan is fully funded, taking defence spending to 3% of national income by 2030. The OBR estimates that needs an extra £17.3bn in 2029/30.",
+      "detail": "The Defence Investment Plan is fully funded, taking defence spending to 3% of national income by 2030. The OBR estimates that needs an extra £17.3bn in 2029/30. Next year's Spending Review will set out how to reach NATO's 3.5% by 2035. Up to £5bn of investment and lending from the National Wealth Fund and British Business Bank will go to defence firms over four years.",
       "impact": "A big long-term spending commitment. It's part of why there's little room for tax cuts elsewhere.",
       "who": [
         "everyone"
       ],
-      "source": "Budget speech"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "welfare-reform",
@@ -208,8 +209,7 @@
         "worker",
         "pensioner"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "rough-sleeping",
@@ -391,27 +391,40 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T13:23:00Z",
+      "title": "Up to £5bn to back defence firms",
+      "body": "There will be a new Innovative Defence Finance Taskforce and treaty talks with Finland, Poland and the Netherlands on joint defence funding. The National Wealth Fund and British Business Bank will put up to £5bn into defence over four years.",
+      "tag": "Speech",
+      "measure": "defence",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T13:22:00Z",
+      "title": "Plan for NATO's 3.5% target coming next year",
+      "body": "Healey says the defence budget is £14bn higher than in the Conservatives' last year. Next year's Spending Review will show how the UK reaches NATO's 3.5% of GDP by 2035. Earlier, a Tory MP was rebuked by the Deputy Speaker for interrupting.",
+      "tag": "Speech",
+      "measure": "defence",
+      "new": true
+    },
+    {
       "time": "2026-10-28T13:20:00Z",
       "title": "£10bn more support for Ukraine",
       "body": "The £10bn of extra economic and military support is mainly loans and export finance guarantees, plus £500m in urgent military funding this winter. Healey says Zelenskyy told them 'you've made my day'.",
-      "tag": "Speech",
-      "new": true
+      "tag": "Speech"
     },
     {
       "time": "2026-10-28T13:19:00Z",
       "title": "Welfare bill to come down 'in a Labour way'",
       "body": "Healey says he won't write off a million young people out of work or leave disabled people in a system 'not fit for purpose', but taxpayers shouldn't fund a failing system for decades.",
       "tag": "Speech",
-      "measure": "welfare-reform",
-      "new": true
+      "measure": "welfare-reform"
     },
     {
       "time": "2026-10-28T13:18:00Z",
       "title": "Face-to-face benefit assessments return",
       "body": "Universal Credit will be rebalanced so it doesn't push people to sign off as too sick to work. Motability will be reformed, and there's a crackdown on overseas State Pension claims.",
       "tag": "Confirmed",
-      "measure": "welfare-reform",
-      "new": true
+      "measure": "welfare-reform"
     },
     {
       "time": "2026-10-28T13:17:00Z",

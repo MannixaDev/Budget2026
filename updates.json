@@ -9,7 +9,7 @@
       "embed": "https://videoplayback.parliamentlive.tv/Player/Index/46bd884d-5920-4c2d-9624-0f211369ad93?audioOnly=False&autoStart=False&script=False",
       "page": "https://parliamentlive.tv/Event/Index/46bd884d-5920-4c2d-9624-0f211369ad93"
     },
-    "lastUpdated": "2026-10-28T12:54:00Z"
+    "lastUpdated": "2026-10-28T12:57:00Z"
   },
   "measures": [
     {
@@ -25,8 +25,7 @@
         "homeowner",
         "pensioner"
       ],
-      "source": "Budget speech",
-      "new": true
+      "source": "Budget speech"
     },
     {
       "id": "gas-standing-charge",
@@ -108,7 +107,7 @@
         "driver",
         "business"
       ],
-      "source": "Government announcement"
+      "source": "Budget speech"
     },
     {
       "id": "food-tariffs",
@@ -120,7 +119,7 @@
       "who": [
         "everyone"
       ],
-      "source": "Government announcement"
+      "source": "Budget speech"
     },
     {
       "id": "paternity-self-employed",
@@ -136,17 +135,31 @@
       "source": "Government announcement"
     },
     {
+      "id": "pension-allowance",
+      "category": "Pensions",
+      "status": "confirmed",
+      "headline": "No income tax on a full State Pension",
+      "detail": "A new Pension Tax Allowance means pensioners whose income is no more than the full new State Pension won't pay income tax for the rest of this Parliament. Separately, ex-miners get every penny of their pension fund surplus.",
+      "impact": "Pensioners living on just the State Pension won't be dragged into income tax as the pension rises.",
+      "who": [
+        "pensioner"
+      ],
+      "source": "Budget speech",
+      "new": true
+    },
+    {
       "id": "minimum-wage",
       "category": "Work",
-      "status": "expected",
-      "headline": "Minimum wage rise for over-21s",
-      "detail": "A rise in the National Living Wage for workers aged 21 and over is expected. No figure has been confirmed yet.",
-      "impact": "A pay rise for the lowest-paid workers, usually from April. Some employers warn it makes taking on trainees harder.",
+      "status": "confirmed",
+      "headline": "Minimum wage up 3.9%",
+      "detail": "Both the National Minimum Wage and the National Living Wage rise by 3.9%, covering 2.3 million of the lowest-paid workers.",
+      "impact": "A pay rise for the lowest-paid, normally from April. For a full-time worker it's roughly in line with inflation.",
       "who": [
         "worker",
         "business"
       ],
-      "source": "Pre-Budget reporting"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "carers",
@@ -176,15 +189,16 @@
     {
       "id": "fuel-duty",
       "category": "Transport",
-      "status": "expected",
-      "headline": "Will the 5p fuel duty cut survive?",
-      "detail": "The temporary 5p a litre cut in fuel duty is due to start unwinding in January 2027 (+3p), with the rest gone by March. Healey has refused to say whether that rise will be delayed. Some previews expect it to be dropped, and the AA wants the cut kept plus another 5p off.",
-      "impact": "If the rise goes ahead, filling a typical 55-litre tank would eventually cost about £3.30 more (5p a litre, plus VAT). If it's scrapped, prices at the pump stay as they are.",
+      "status": "confirmed",
+      "headline": "5p fuel duty cut extended to July",
+      "detail": "The 5p cut in fuel duty, and the low rate on red diesel, are extended through winter and spring until July.",
+      "impact": "No rise at the pump from duty for now. That helps drivers, hauliers and farmers. The question returns next summer.",
       "who": [
         "driver",
         "business"
       ],
-      "source": "Pre-Budget reporting"
+      "source": "Budget speech",
+      "new": true
     },
     {
       "id": "warm-homes",
@@ -264,12 +278,43 @@
   ],
   "updates": [
     {
+      "time": "2026-10-28T12:52:30Z",
+      "title": "Minimum wage up 3.9%",
+      "body": "The National Minimum Wage and National Living Wage both rise by 3.9%, covering 2.3 million low-paid workers.",
+      "tag": "Confirmed",
+      "measure": "minimum-wage",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:52:00Z",
+      "title": "No income tax for pensioners on the State Pension",
+      "body": "A new Pension Tax Allowance means pensioners with income up to the full new State Pension won't pay income tax this Parliament. Ex-miners get the full pension fund surplus.",
+      "tag": "Confirmed",
+      "measure": "pension-allowance",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:51:30Z",
+      "title": "Fuel duty cut extended to July",
+      "body": "The 5p fuel duty cut and the low red diesel rate are extended to July because of high fuel prices. The higher mileage rate goes from 25p to 35p a mile.",
+      "tag": "Confirmed",
+      "measure": "fuel-duty",
+      "new": true
+    },
+    {
+      "time": "2026-10-28T12:51:00Z",
+      "title": "Tariffs suspended on 100+ supermarket items",
+      "body": "Confirmed in the speech, to help keep the weekly shop down.",
+      "tag": "Confirmed",
+      "measure": "food-tariffs",
+      "new": true
+    },
+    {
       "time": "2026-10-28T12:50:00Z",
       "title": "£100 energy payment for 20 million homes",
       "body": "Households in council tax bands A–D get £100 paid directly into their bank accounts this winter to help with energy bills, at a cost of £2.6bn.",
       "tag": "Breaking",
-      "measure": "energy-payment",
-      "new": true
+      "measure": "energy-payment"
     },
     {
       "time": "2026-10-28T12:49:00Z",
